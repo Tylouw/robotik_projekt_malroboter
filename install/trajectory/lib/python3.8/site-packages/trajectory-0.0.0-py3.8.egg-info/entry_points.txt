@@ -1,0 +1,5 @@
+[console_scripts]
+calibration = trajectory.calibration:main
+trajectoryPlanning = trajectory.trajectoryPlanning:main
+trajectoryPlanningOld = trajectory.trajectoryPlanningOld:main
+

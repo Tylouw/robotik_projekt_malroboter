@@ -1,0 +1,23 @@
+[0.684s] Invoking command in '/home/prakt3/praktikum_ws/src/trajectory': PYTHONPATH=/home/prakt3/praktikum_ws/build/trajectory/prefix_override:/home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory build --build-base /home/prakt3/praktikum_ws/build/trajectory/build install --record /home/prakt3/praktikum_ws/build/trajectory/install.log --single-version-externally-managed
+[0.812s] running egg_info
+[0.813s] writing ../../build/trajectory/trajectory.egg-info/PKG-INFO
+[0.816s] writing dependency_links to ../../build/trajectory/trajectory.egg-info/dependency_links.txt
+[0.816s] writing entry points to ../../build/trajectory/trajectory.egg-info/entry_points.txt
+[0.816s] writing requirements to ../../build/trajectory/trajectory.egg-info/requires.txt
+[0.816s] writing top-level names to ../../build/trajectory/trajectory.egg-info/top_level.txt
+[0.833s] reading manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+[0.835s] writing manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+[0.835s] running build
+[0.835s] running build_py
+[0.835s] running install
+[0.835s] running install_lib
+[0.836s] running install_data
+[0.836s] running install_egg_info
+[0.838s] removing '/home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory-0.0.0-py3.8.egg-info' (and everything under it)
+[0.840s] Copying ../../build/trajectory/trajectory.egg-info to /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory-0.0.0-py3.8.egg-info
+[0.840s] running install_scripts
+[0.858s] Installing calibration script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+[0.858s] Installing trajectoryPlanning script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+[0.858s] Installing trajectoryPlanningOld script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+[0.858s] writing list of installed files to '/home/prakt3/praktikum_ws/build/trajectory/install.log'
+[0.887s] Invoked command in '/home/prakt3/praktikum_ws/src/trajectory' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/trajectory/prefix_override:/home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory build --build-base /home/prakt3/praktikum_ws/build/trajectory/build install --record /home/prakt3/praktikum_ws/build/trajectory/install.log --single-version-externally-managed

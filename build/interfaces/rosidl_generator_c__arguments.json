@@ -1,0 +1,38 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/prakt3/praktikum_ws/build/interfaces/rosidl_generator_c/interfaces",
+  "template_dir": "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/Pointcoords.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/Waypoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/PointTranslation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/Move.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/PointOrientation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/Picturetopoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/Getpose.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/SetUrIo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../../../lib/python3.8/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/galactic/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/Pointcoords.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/Waypoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/PointTranslation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/Move.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/PointOrientation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/Picturetopoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/Getpose.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/SetUrIo.idl"
+  ]
+}

@@ -1,0 +1,11 @@
+source;share/geometric_shapes/hook/cmake_prefix_path.ps1
+source;share/geometric_shapes/hook/cmake_prefix_path.dsv
+source;share/geometric_shapes/hook/cmake_prefix_path.sh
+source;share/geometric_shapes/hook/ld_library_path_lib.ps1
+source;share/geometric_shapes/hook/ld_library_path_lib.dsv
+source;share/geometric_shapes/hook/ld_library_path_lib.sh
+source;share/geometric_shapes/local_setup.bash
+source;share/geometric_shapes/local_setup.dsv
+source;share/geometric_shapes/local_setup.ps1
+source;share/geometric_shapes/local_setup.sh
+source;share/geometric_shapes/local_setup.zsh

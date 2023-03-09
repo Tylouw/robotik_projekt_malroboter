@@ -1,0 +1,698 @@
+[0.010s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/vrpn-release -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/vrpn
+[0.056s] -- The C compiler identification is GNU 9.4.0
+[0.106s] -- The CXX compiler identification is GNU 9.4.0
+[0.110s] -- Check for working C compiler: /usr/bin/cc
+[0.170s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.170s] -- Detecting C compiler ABI info
+[0.241s] -- Detecting C compiler ABI info - done
+[0.248s] -- Detecting C compile features
+[0.249s] -- Detecting C compile features - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.296s] -- Detecting CXX compiler ABI info
+[0.354s] -- Detecting CXX compiler ABI info - done
+[0.362s] -- Detecting CXX compile features
+[0.362s] -- Detecting CXX compile features - done
+[0.418s] -- Configuring the VRPN suite version 07.34 using the CMake-based build system
+[0.418s] 
+[0.418s] CMake Warning (dev) at CMakeLists.txt:160 (option):
+[0.418s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.418s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.418s]   set the policy and suppress this warning.
+[0.418s] 
+[0.418s]   For compatibility with older versions of CMake, option is clearing the
+[0.418s]   normal variable 'VRPN_BUILD_CLIENT_LIBRARY'.
+[0.418s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.418s] 
+[0.418s] CMake Warning (dev) at CMakeLists.txt:163 (option):
+[0.418s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.418s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.418s]   set the policy and suppress this warning.
+[0.418s] 
+[0.418s]   For compatibility with older versions of CMake, option is clearing the
+[0.418s]   normal variable 'VRPN_BUILD_SERVER_LIBRARY'.
+[0.419s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.419s] 
+[0.419s] CMake Warning (dev) at CMakeLists.txt:168 (option):
+[0.419s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.419s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.419s]   set the policy and suppress this warning.
+[0.419s] 
+[0.419s]   For compatibility with older versions of CMake, option is clearing the
+[0.419s]   normal variable 'VRPN_BUILD_CLIENTS'.
+[0.419s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.419s] 
+[0.419s] CMake Warning (dev) at CMakeLists.txt:169 (option):
+[0.419s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.419s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.419s]   set the policy and suppress this warning.
+[0.419s] 
+[0.419s]   For compatibility with older versions of CMake, option is clearing the
+[0.419s]   normal variable 'VRPN_BUILD_SERVERS'.
+[0.419s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.419s] 
+[0.419s] -- Looking for pthread.h
+[0.467s] -- Looking for pthread.h - found
+[0.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.516s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.517s] -- Looking for pthread_create in pthreads
+[0.592s] -- Looking for pthread_create in pthreads - not found
+[0.592s] -- Looking for pthread_create in pthread
+[0.679s] -- Looking for pthread_create in pthread - found
+[0.680s] -- Found Threads: TRUE  
+[0.680s] -- Now searching for auto-configurable optional packages...
+[0.681s] 
+[0.686s] -- Checking for module 'libusb-1.0'
+[0.689s] --   No package 'libusb-1.0' found
+[0.702s] -- Could NOT find Libusb1 (missing: LIBUSB1_LIBRARY LIBUSB1_INCLUDE_DIR) 
+[0.704s] -- Could NOT find SWIG (missing: SWIG_EXECUTABLE SWIG_DIR) 
+[0.711s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[0.711s] CMake Warning (dev) at cmake/OptionRequires.cmake:46 (option):
+[0.711s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.711s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.711s]   set the policy and suppress this warning.
+[0.711s] 
+[0.711s]   For compatibility with older versions of CMake, option is clearing the
+[0.711s]   normal variable 'VRPN_BUILD_PYTHON'.
+[0.711s] Call Stack (most recent call first):
+[0.711s]   CMakeLists.txt:345 (option_requires)
+[0.711s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.711s] 
+[0.712s] -- Could NOT find Java (missing: Java_JAVA_EXECUTABLE Java_JAVAC_EXECUTABLE Java_JAR_EXECUTABLE Java_JAVADOC_EXECUTABLE Java_JAVAH_EXECUTABLE Development) 
+[0.717s] -- Could NOT find JNI (missing: JAVA_AWT_LIBRARY JAVA_JVM_LIBRARY JAVA_INCLUDE_PATH JAVA_INCLUDE_PATH2 JAVA_AWT_INCLUDE_PATH) 
+[0.717s] CMake Warning (dev) at cmake/OptionRequires.cmake:46 (option):
+[0.717s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[0.717s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[0.717s]   set the policy and suppress this warning.
+[0.717s] 
+[0.717s]   For compatibility with older versions of CMake, option is clearing the
+[0.717s]   normal variable 'VRPN_BUILD_JAVA'.
+[0.717s] Call Stack (most recent call first):
+[0.717s]   CMakeLists.txt:374 (option_requires)
+[0.717s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.717s] 
+[0.851s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+[1.468s] -- Found MPI_CXX: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+[1.469s] -- Found MPI: TRUE (found version "3.1")  
+[1.472s] -- Could NOT find Modbus (missing: MODBUS_LIBRARY MODBUS_INCLUDE_DIR) 
+[1.475s] -- Checking for module 'libusb-1.0'
+[1.476s] --   No package 'libusb-1.0' found
+[1.479s] -- Could NOT find Libusb1 (missing: LIBUSB1_LIBRARY LIBUSB1_INCLUDE_DIR) 
+[1.487s] -- Could NOT find OpenHaptics (missing: HDAPI_LIBRARY HDAPI_INCLUDE_DIR HDAPI_HDU_INCLUDE_DIR HDAPI_HDU_LIBRARY HLAPI_INCLUDE_DIR HLAPI_LIBRARY HLAPI_HLU_INCLUDE_DIR HLAPI_HLU_LIBRARY HDAPI_PHANToMIO_LIBRARY HDAPI_HDU_SOURCE_DIR HLAPI_HLU_SOURCE_DIR) 
+[1.489s] -- Could NOT find GHOST (missing: GHOST_LIBRARY GHOST_INCLUDE_DIR) 
+[1.490s] -- Found I2CDEV: /usr/include  
+[1.492s] -- Could NOT find WiiUse (missing: WIIUSE_LIBRARY WIIUSE_INCLUDE_DIR) 
+[1.495s] -- Could NOT find LibNifalcon (missing: LIBNIFALCON_LIBRARY LIBNIFALCON_INCLUDE_DIR LIBNIFALCON_LIBUSB1_LIBRARY LIBNIFALCON_LIBUSB1_INCLUDE_DIR) 
+[1.496s] -- Could NOT find GPM (missing: GPM_LIBRARY GPM_INCLUDE_DIR) 
+[1.498s] -- Could NOT find InterSense (missing: INTERSENSE_LIBRARY INTERSENSE_INCLUDE_DIR) 
+[1.499s] -- Could NOT find NIDAQmx (missing: NIDAQMX_LIBRARY NIDAQMX_INCLUDE_DIR) 
+[1.501s] -- Could NOT find ViewPoint (missing: VIEWPOINT_LIBRARY VIEWPOINT_INCLUDE_DIR) 
+[1.501s] -- Looking for C++ include linux/joystick.h
+[1.559s] -- Looking for C++ include linux/joystick.h - found
+[1.560s] -- Looking for C++ include linux/input.h
+[1.642s] -- Looking for C++ include linux/input.h - found
+[1.646s] -- Found Perl: /usr/bin/perl (found version "5.30.0") 
+[1.646s] -- Checking for perl module Parse::RecDescent
+[1.648s] -- Checking for perl module Parse::RecDescent - failed
+[1.648s] -- Could NOT find PerlModules (missing: PERLMODULES_PARSE_RECDESCENT_MODULE) 
+[1.651s] -- Could NOT find LibFreespace (missing: LIBFREESPACE_LIBRARY LIBFREESPACE_INCLUDE_DIR) 
+[1.653s] -- Found quatlib: quat  
+[1.655s] -- Could NOT find ColibriApi (missing: COLIBRIAPI_LIBRARY COLIBRIAPI_INCLUDE_DIR) 
+[1.664s] -- Found GLUT: /usr/lib/x86_64-linux-gnu/libglut.so  
+[1.667s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+[1.667s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.667s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.667s]   cmake_policy command to set the policy and suppress this warning.
+[1.667s] 
+[1.667s]   FindOpenGL found both a legacy GL library:
+[1.667s] 
+[1.667s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.667s] 
+[1.667s]   and GLVND libraries for OpenGL and GLX:
+[1.667s] 
+[1.667s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.667s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.667s] 
+[1.667s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.667s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.667s] Call Stack (most recent call first):
+[1.667s]   client_src/CMakeLists.txt:26 (find_package)
+[1.667s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.667s] 
+[1.667s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.669s] CMake Warning (dev) at /usr/share/cmake-3.16/Modules/FindOpenGL.cmake:275 (message):
+[1.669s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[1.669s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[1.669s]   cmake_policy command to set the policy and suppress this warning.
+[1.669s] 
+[1.669s]   FindOpenGL found both a legacy GL library:
+[1.669s] 
+[1.669s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[1.669s] 
+[1.669s]   and GLVND libraries for OpenGL and GLX:
+[1.669s] 
+[1.669s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[1.669s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[1.669s] 
+[1.669s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[1.670s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[1.670s] Call Stack (most recent call first):
+[1.670s]   server_src/CMakeLists.txt:27 (find_package)
+[1.670s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.670s] 
+[1.679s] -- Dashboard scripts have been generated for automatic nightly and continuous builds.
+[1.679s] -- You can add these sample lines to your crontab:
+[1.680s] -- 
+[1.680s] 
+[1.680s] 15 0 * * * "/usr/bin/ctest" -S "/home/prakt3/praktikum_ws/build/vrpn/Dashboards-herbie-prakt3/runNightly.cmake" 
+[1.680s] 15 * * * * "/usr/bin/ctest" -S "/home/prakt3/praktikum_ws/build/vrpn/Dashboards-herbie-prakt3/runContinuous.cmake" 
+[1.680s] 
+[1.680s] or run this command for an one-off experimental test build:
+[1.680s] "/usr/bin/ctest" -S "/home/prakt3/praktikum_ws/build/vrpn/Dashboards-herbie-prakt3/runExperimental.cmake" -VV
+[1.680s] 
+[1.680s] -- 
+[1.692s] -- Configuring done
+[1.720s] -- Generating done
+[1.722s] -- Build files have been written to: /home/prakt3/praktikum_ws/build/vrpn
+[1.727s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/vrpn-release -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/vrpn
+[1.729s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn -- -j12 -l12
+[1.757s] [35m[1mScanning dependencies of target quat[0m
+[1.757s] [35m[1mScanning dependencies of target gpsnmea[0m
+[1.757s] [35m[1mScanning dependencies of target vrpn_atmel[0m
+[1.757s] [35m[1mScanning dependencies of target vrpn_timecode_generator[0m
+[1.780s] [  0%] [32mBuilding C object quat/CMakeFiles/quat.dir/quat.c.o[0m
+[1.781s] [  1%] [32mBuilding C object quat/CMakeFiles/quat.dir/vector.c.o[0m
+[1.781s] [  1%] [32mBuilding C object quat/CMakeFiles/quat.dir/xyzquat.c.o[0m
+[1.782s] [  3%] [32mBuilding CXX object gpsnmealib/CMakeFiles/gpsnmea.dir/nmeaParser.C.o[0m
+[1.782s] [  3%] [32mBuilding CXX object atmellib/CMakeFiles/vrpn_atmel.dir/vrpn_atmellib_helper.C.o[0m
+[1.782s] [  3%] [32mBuilding C object quat/CMakeFiles/quat.dir/matrix.c.o[0m
+[1.783s] [  3%] [32mBuilding CXX object gpsnmealib/CMakeFiles/gpsnmea.dir/typedCoord.C.o[0m
+[1.783s] [  3%] [32mBuilding CXX object gpsnmealib/CMakeFiles/gpsnmea.dir/latLonCoord.C.o[0m
+[1.783s] [  5%] [32mBuilding CXX object gpsnmealib/CMakeFiles/gpsnmea.dir/utmCoord.C.o[0m
+[1.784s] [  5%] [32mBuilding CXX object server_src/timecode_generator_server/CMakeFiles/vrpn_timecode_generator.dir/vrpn_timecode_generator.cpp.o[0m
+[1.784s] [  6%] [32mBuilding CXX object atmellib/CMakeFiles/vrpn_atmel.dir/vrpn_atmellib_iobasic.C.o[0m
+[1.784s] [  6%] [32mBuilding CXX object atmellib/CMakeFiles/vrpn_atmel.dir/vrpn_atmellib_openclose.C.o[0m
+[1.819s] [  6%] [32m[1mLinking CXX static library libvrpn_timecode_generator.a[0m
+[1.836s] [  7%] [32mBuilding CXX object atmellib/CMakeFiles/vrpn_atmel.dir/vrpn_atmellib_register.C.o[0m
+[1.848s] [  7%] [32mBuilding CXX object atmellib/CMakeFiles/vrpn_atmel.dir/vrpn_atmellib_tester.C.o[0m
+[1.854s] [  7%] Built target vrpn_timecode_generator
+[1.879s] [  8%] [32m[1mLinking CXX static library libvrpn_atmel.a[0m
+[1.898s] [  8%] Built target vrpn_atmel
+[1.942s] [  9%] [32m[1mLinking C static library libquat.a[0m
+[1.960s] [  9%] Built target quat
+[1.966s] [35m[1mScanning dependencies of target vrpn[0m
+[1.982s] [  9%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o[0m
+[1.983s] [ 10%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Analog.C.o[0m
+[1.983s] [ 11%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Assert.C.o[0m
+[1.983s] [ 11%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o[0m
+[1.983s] [ 12%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o[0m
+[1.983s] [ 12%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Button.C.o[0m
+[1.983s] [ 13%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Connection.C.o[0m
+[1.990s] [ 13%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Dial.C.o[0m
+[2.000s] [ 14%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o[0m
+[2.021s] [ 14%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o[0m
+[2.030s] [ 15%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_FileController.C.o[0m
+[2.031s] [ 15%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o[0m
+[2.088s] [ 15%] [32m[1mLinking CXX static library libgpsnmea.a[0m
+[2.118s] [ 15%] Built target gpsnmea
+[2.129s] [35m[1mScanning dependencies of target vrpnserver[0m
+[2.165s] [ 15%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o[0m
+[2.213s] [ 15%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Analog.C.o[0m
+[2.238s] [ 16%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o[0m
+[2.238s] [ 16%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o[0m
+[2.259s] [ 17%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Imager.C.o[0m
+[2.275s] [ 17%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o[0m
+[2.282s] [ 18%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Mutex.C.o[0m
+[2.303s] [ 18%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Poser.C.o[0m
+[2.338s] [ 20%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o[0m
+[2.338s] [ 20%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Analog_Output.C.o[0m
+[2.347s] [ 20%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Serial.C.o[0m
+[2.375s] [ 21%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o[0m
+[2.432s] [ 21%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Shared.C.o[0m
+[2.457s] [ 22%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o[0m
+[2.522s] [ 22%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Assert.C.o[0m
+[2.555s] [ 23%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Auxiliary_Logger.C.o[0m
+[2.615s] [ 23%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Sound.C.o[0m
+[2.631s] [ 23%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_BaseClass.C.o[0m
+[2.636s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[2.636s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:2[m[K:
+[2.636s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[2.636s]     inlined from ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’ at [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12[m[K:
+[2.636s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound depends on the length of the source argument [[01;35m[K-Wstringop-overflow=[m[K]
+[2.636s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[2.636s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.636s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:[m[K In member function ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’:
+[2.636s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12:[m[K [01;36m[Knote: [m[Klength computed here
+[2.636s]  1393 |     [01;36m[Kstrncpy(d_mutexName, name, strlen(name))[m[K;
+[2.636s]       |     [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.643s] [ 23%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Text.C.o[0m
+[2.648s] [ 24%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Button.C.o[0m
+[2.711s] [ 25%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Thread.C.o[0m
+[2.784s] [ 25%] [32mBuilding CXX object CMakeFiles/vrpn.dir/vrpn_Tracker.C.o[0m
+[2.806s] [ 25%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Connection.C.o[0m
+[2.852s] [ 26%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Dial.C.o[0m
+[2.873s] [ 26%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_EndpointContainer.C.o[0m
+[2.887s] [ 27%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_FileConnection.C.o[0m
+[2.906s] [ 27%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_FileController.C.o[0m
+[2.974s] [ 28%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_ForceDevice.C.o[0m
+[3.040s] [ 28%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Forwarder.C.o[0m
+[3.045s] [ 28%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_ForwarderController.C.o[0m
+[3.097s] [ 29%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_FunctionGenerator.C.o[0m
+[3.141s] [ 29%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Imager.C.o[0m
+[3.197s] [ 30%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_LamportClock.C.o[0m
+[3.208s] [ 30%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Mutex.C.o[0m
+[3.228s] [ 31%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Poser.C.o[0m
+[3.240s] [ 31%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_RedundantTransmission.C.o[0m
+[3.240s] [ 32%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Serial.C.o[0m
+[3.276s] [ 32%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_SerialPort.C.o[0m
+[3.286s] [ 33%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Shared.C.o[0m
+[3.349s] [ 33%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_SharedObject.C.o[0m
+[3.465s] [ 34%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Sound.C.o[0m
+[3.492s] [ 34%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Text.C.o[0m
+[3.533s] [ 35%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Thread.C.o[0m
+[3.561s] In file included from [01m[K/usr/include/string.h:495[m[K,
+[3.561s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:2[m[K:
+[3.561s] In function ‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’,
+[3.561s]     inlined from ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’ at [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12[m[K:
+[3.561s] [01m[K/usr/include/x86_64-linux-gnu/bits/string_fortified.h:106:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* __builtin_strncpy(char*, const char*, long unsigned int)[m[K’ specified bound depends on the length of the source argument [[01;35m[K-Wstringop-overflow=[m[K]
+[3.561s]   106 |   return [01;35m[K__builtin___strncpy_chk (__dest, __src, __len, __bos (__dest))[m[K;
+[3.561s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.561s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:[m[K In member function ‘[01m[Kvoid vrpn_PeerMutex::init(const char*)[m[K’:
+[3.561s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Mutex.C:1393:12:[m[K [01;36m[Knote: [m[Klength computed here
+[3.561s]  1393 |     [01;36m[Kstrncpy(d_mutexName, name, strlen(name))[m[K;
+[3.561s]       |     [01;36m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.586s] [ 36%] [32m[1mLinking CXX static library libvrpn.a[0m
+[3.594s] [ 36%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker.C.o[0m
+[3.615s] [ 36%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_3DConnexion.C.o[0m
+[3.631s] [ 36%] Built target vrpn
+[3.640s] [35m[1mScanning dependencies of target c_interface_example[0m
+[3.657s] [ 36%] [32mBuilding C object client_src/CMakeFiles/c_interface_example.dir/c_interface_example.c.o[0m
+[3.658s] [ 37%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_3DMicroscribe.C.o[0m
+[3.683s] [ 37%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_3Space.C.o[0m
+[3.685s] [35m[1mScanning dependencies of target run_auxiliary_logger[0m
+[3.691s] [ 37%] [32mBuilding CXX object client_src/CMakeFiles/c_interface_example.dir/c_interface.cpp.o[0m
+[3.697s] [ 37%] [32mBuilding CXX object client_src/CMakeFiles/run_auxiliary_logger.dir/run_auxiliary_logger.C.o[0m
+[3.792s] [ 38%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_5DT16.C.o[0m
+[3.835s] [ 39%] [32m[1mLinking CXX executable c_interface_example[0m
+[3.840s] [ 39%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Adafruit.C.o[0m
+[3.858s] [ 39%] [32m[1mLinking CXX executable run_auxiliary_logger[0m
+[3.888s] [35m[1mScanning dependencies of target vrpn_print_devices[0m
+[3.900s] [ 40%] [32mBuilding CXX object client_src/CMakeFiles/vrpn_print_devices.dir/vrpn_print_devices.C.o[0m
+[3.918s] [ 41%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_ADBox.C.o[0m
+[3.938s] [ 41%] Built target c_interface_example
+[3.943s] [ 41%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Analog_5dt.C.o[0m
+[3.946s] [35m[1mScanning dependencies of target vrpn_print_performance[0m
+[3.957s] [ 42%] [32mBuilding CXX object client_src/CMakeFiles/vrpn_print_performance.dir/vrpn_print_performance.C.o[0m
+[3.960s] [ 42%] Built target run_auxiliary_logger
+[3.981s] [35m[1mScanning dependencies of target vrpn_print_messages[0m
+[4.004s] [ 43%] [32mBuilding CXX object client_src/CMakeFiles/vrpn_print_messages.dir/vrpn_print_messages.C.o[0m
+[4.029s] [ 44%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Analog_5dtUSB.C.o[0m
+[4.101s] [ 44%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Analog_Radamec_SPI.C.o[0m
+[4.104s] [ 45%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Analog_USDigital_A2.C.o[0m
+[4.113s] [ 45%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Atmel.C.o[0m
+[4.136s] [ 46%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_BiosciencesTools.C.o[0m
+[4.140s] [ 46%] [32m[1mLinking CXX executable vrpn_print_messages[0m
+[4.205s] [ 46%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Button_NI_DIO24.C.o[0m
+[4.217s] [ 46%] [32m[1mLinking CXX executable vrpn_print_devices[0m
+[4.228s] [ 46%] Built target vrpn_print_messages
+[4.237s] [35m[1mScanning dependencies of target vrpn_average_analogs[0m
+[4.249s] [ 46%] [32mBuilding CXX object client_src/CMakeFiles/vrpn_average_analogs.dir/vrpn_average_analogs.C.o[0m
+[4.256s] [ 46%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Button_USB.cpp.o[0m
+[4.267s] [ 47%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_CerealBox.C.o[0m
+[4.271s] [ 47%] [32m[1mLinking CXX executable vrpn_print_performance[0m
+[4.275s] [ 47%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_CHProducts_Controller_Raw.C.o[0m
+[4.281s] [ 48%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Contour.C.o[0m
+[4.318s] [ 48%] Built target vrpn_print_devices
+[4.334s] [ 48%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_DevInput.C.o[0m
+[4.334s] [35m[1mScanning dependencies of target vrpn_streamPrint[0m
+[4.346s] [ 49%] [32mBuilding CXX object util/printStream/CMakeFiles/vrpn_streamPrint.dir/vrpn_streamPrint.cpp.o[0m
+[4.358s] [ 50%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_DirectXFFJoystick.C.o[0m
+[4.377s] [ 50%] Built target vrpn_print_performance
+[4.383s] [ 50%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_DirectXRumblePad.C.o[0m
+[4.385s] [ 51%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_DreamCheeky.C.o[0m
+[4.385s] [ 51%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Dyna.C.o[0m
+[4.402s] [ 52%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Event_Analog.C.o[0m
+[4.412s] [ 52%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Event.C.o[0m
+[4.477s] [ 53%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Event_Mouse.C.o[0m
+[4.478s] [ 53%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Flock.C.o[0m
+[4.486s] [ 53%] [32m[1mLinking CXX executable vrpn_average_analogs[0m
+[4.508s] [ 53%] [32m[1mLinking CXX executable vrpn_streamPrint[0m
+[4.535s] [ 53%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Flock_Parallel.C.o[0m
+[4.568s] [ 54%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_ForceDeviceServer.C.o[0m
+[4.594s] [ 54%] Built target vrpn_average_analogs
+[4.600s] [ 54%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Freespace.C.o[0m
+[4.604s] [ 55%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Futaba.C.o[0m
+[4.609s] [ 55%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_GlobalHapticsOrb.C.o[0m
+[4.618s] [ 56%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Griffin.C.o[0m
+[4.624s] [ 56%] Built target vrpn_streamPrint
+[4.631s] [ 57%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_IDEA.C.o[0m
+[4.632s] [ 57%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Imager_Stream_Buffer.C.o[0m
+[4.633s] [ 57%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_HumanInterface.C.o[0m
+[4.656s] [ 58%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_ImmersionBox.C.o[0m
+[4.689s] [ 58%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_inertiamouse.C.o[0m
+[4.739s] [ 59%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_JoyFly.C.o[0m
+[4.753s] [ 59%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Joylin.C.o[0m
+[4.763s] [ 59%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Joywin32.C.o[0m
+[4.781s] [ 60%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Keyboard.C.o[0m
+[4.848s] [ 60%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Laputa.C.o[0m
+[4.856s] [ 61%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_LUDL.C.o[0m
+[4.923s] [ 61%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Logitech_Controller_Raw.C.o[0m
+[4.924s] [ 62%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Magellan.C.o[0m
+[4.931s] [ 62%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Microsoft_Controller_Raw.C.o[0m
+[4.945s] [ 63%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Mouse.C.o[0m
+[4.954s] [ 63%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_NationalInstruments.C.o[0m
+[4.956s] [ 64%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Nidaq.C.o[0m
+[4.975s] [ 64%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_nikon_controls.C.o[0m
+[4.975s] [ 65%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_nVidia_shield_controller.C.o[0m
+[4.989s] [ 65%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Oculus.C.o[0m
+[5.066s] [ 66%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_OzzMaker.C.o[0m
+[5.079s] [ 66%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_OmegaTemperature.C.o[0m
+[5.108s] [ 66%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Poser_Analog.C.o[0m
+[5.131s] [ 67%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Poser_Tek4662.C.o[0m
+[5.153s] [ 67%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_raw_sgibox.C.o[0m
+[5.154s] [ 68%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Retrolink.C.o[0m
+[5.205s] [ 68%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Saitek_Controller_Raw.C.o[0m
+[5.238s] [ 69%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_sgibox.C.o[0m
+[5.252s] [ 69%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Spaceball.C.o[0m
+[5.254s] [ 70%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Streaming_Arduino.C.o[0m
+[5.257s] [ 70%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tng3.C.o[0m
+[5.260s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::reset()[m[K’:
+[5.260s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:180:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+[5.260s]   180 |   vrpn_write_characters( d_serial_fd, GIN, strlen([01;35m[K(const char*)GIN[m[K) );
+[5.260s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.260s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+[5.260s]    42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+[5.261s]       |                     [01;36m[K^~~[m[K
+[5.262s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::run()[m[K’:
+[5.262s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:256:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+[5.262s]   256 |     vrpn_write_characters(d_serial_fd, GIN, strlen([01;35m[K(const char*)GIN[m[K) );
+[5.262s]       |                                                    [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.262s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+[5.262s]    42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+[5.262s]       |                     [01;36m[K^~~[m[K
+[5.262s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:341:54:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+[5.262s]   341 |       vrpn_write_characters(d_serial_fd, GIN, strlen([01;35m[K(const char*)GIN[m[K) );
+[5.262s]       |                                                      [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[5.262s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+[5.262s]    42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+[5.262s]       |                     [01;36m[K^~~[m[K
+[5.267s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::reset()[m[K’:
+[5.267s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:180:64:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+[5.267s]   180 |   vrpn_write_characters( d_serial_fd, GIN, strlen((const char*)[01;35m[KGIN[m[K) );
+[5.267s]       |                                                                [01;35m[K^~~[m[K
+[5.267s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+[5.267s]    42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+[5.268s]       |                     [01;36m[K^~~[m[K
+[5.268s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:[m[K In member function ‘[01m[Kvoid vrpn_Poser_Tek4662::run()[m[K’:
+[5.268s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:256:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+[5.268s]   256 |     vrpn_write_characters(d_serial_fd, GIN, strlen((const char*)[01;35m[KGIN[m[K) );
+[5.268s]       |                                                                 [01;35m[K^~~[m[K
+[5.268s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+[5.268s]    42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+[5.268s]       |                     [01;36m[K^~~[m[K
+[5.268s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:341:67:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstrlen[m[K’ argument missing terminating nul [[01;35m[K-Wstringop-overflow=[m[K]
+[5.268s]   341 |       vrpn_write_characters(d_serial_fd, GIN, strlen((const char*)[01;35m[KGIN[m[K) );
+[5.268s]       |                                                                   [01;35m[K^~~[m[K
+[5.268s] [01m[K/home/prakt3/praktikum_ws/src/vrpn-release/vrpn_Poser_Tek4662.C:42:21:[m[K [01;36m[Knote: [m[Kreferenced argument declared here
+[5.268s]    42 | const unsigned char [01;36m[KGIN[m[K[] = { ESC, DEVICE, 'M' };
+[5.269s]       |                     [01;36m[K^~~[m[K
+[5.298s] [ 71%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_3DMouse.C.o[0m
+[5.383s] [ 71%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_AnalogFly.C.o[0m
+[5.384s] [ 72%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_ButtonFly.C.o[0m
+[5.391s] [ 72%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Crossbow.C.o[0m
+[5.412s] [ 72%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_DTrack.C.o[0m
+[5.430s] [ 73%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Fastrak.C.o[0m
+[5.465s] [ 73%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Filter.C.o[0m
+[5.501s] [ 74%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_GameTrak.C.o[0m
+[5.517s] [ 74%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_GPS.C.o[0m
+[5.541s] [ 75%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_IMU.C.o[0m
+[5.557s] [ 75%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_isense.C.o[0m
+[5.575s] [ 76%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Isotrak.C.o[0m
+[5.687s] [ 76%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_JsonNet.C.o[0m
+[5.716s] [ 77%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Liberty.C.o[0m
+[5.729s] [ 77%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_MotionNode.C.o[0m
+[5.734s] [ 78%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_NDI_Polaris.C.o[0m
+[5.754s] [ 78%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_NovintFalcon.C.o[0m
+[5.779s] [ 78%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_OSVRHackerDevKit.C.o[0m
+[5.782s] [ 79%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_PDI.C.o[0m
+[5.841s] [ 79%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_PhaseSpace.C.o[0m
+[5.848s] [ 80%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_RazerHydra.C.o[0m
+[5.862s] [ 80%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_ThalmicLabsMyo.C.o[0m
+[5.876s] [ 81%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_SpacePoint.C.o[0m
+[5.880s] [ 81%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Wintracker.C.o[0m
+[5.907s] [ 82%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_Colibri.C.o[0m
+[5.969s] [ 82%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_TrivisioColibri.C.o[0m
+[5.973s] [ 83%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_WiimoteHead.C.o[0m
+[5.987s] [ 83%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_zSight.C.o[0m
+[6.006s] [ 84%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_ViewPoint.C.o[0m
+[6.026s] [ 84%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_UNC_Joystick.C.o[0m
+[6.029s] [ 84%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_VPJoystick.C.o[0m
+[6.058s] [ 85%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Wanda.C.o[0m
+[6.162s] [ 85%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_WiiMote.C.o[0m
+[6.181s] [ 86%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_XInputGamepad.C.o[0m
+[6.193s] [ 86%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Xkeys.C.o[0m
+[6.198s] [ 87%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Tracker_LibertyHS.C.o[0m
+[6.218s] [ 87%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_YEI_3Space.C.o[0m
+[6.292s] [ 88%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/vrpn_Zaber.C.o[0m
+[6.306s] [ 88%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/server_src/vrpn_Generic_server_object.C.o[0m
+[6.316s] [ 89%] [32mBuilding C object CMakeFiles/vrpnserver.dir/submodules/hidapi/linux/hid.c.o[0m
+[6.327s] [ 89%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/submodules/jsoncpp/src/lib_json/json_reader.cpp.o[0m
+[6.332s] [ 90%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/submodules/jsoncpp/src/lib_json/json_value.cpp.o[0m
+[6.344s] [ 90%] [32mBuilding CXX object CMakeFiles/vrpnserver.dir/submodules/jsoncpp/src/lib_json/json_writer.cpp.o[0m
+[9.474s] [ 91%] [32m[1mLinking CXX static library libvrpnserver.a[0m
+[9.560s] [ 91%] Built target vrpnserver
+[9.566s] [35m[1mScanning dependencies of target vrpn_server[0m
+[9.566s] [35m[1mScanning dependencies of target vrpn-python[0m
+[9.572s] [ 92%] [32mBuilding CXX object server_src/CMakeFiles/vrpn_server.dir/vrpn.C.o[0m
+[9.594s] [ 93%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/Base.cpp.o[0m
+[9.594s] [ 93%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/Device.cpp.o[0m
+[9.594s] [ 94%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/callback.cpp.o[0m
+[9.594s] [ 93%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/Connection.cpp.o[0m
+[9.594s] [ 95%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/quaternion/quaternion.cpp.o[0m
+[9.595s] [ 96%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/receiver/Button.cpp.o[0m
+[9.595s] [ 96%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/receiver/Analog.cpp.o[0m
+[9.595s] [ 96%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/receiver/Dial.cpp.o[0m
+[9.595s] [ 97%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/receiver/Text_Receiver.cpp.o[0m
+[9.595s] [ 97%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/receiver/Tracker.cpp.o[0m
+[9.596s] [ 97%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/interface.cpp.o[0m
+[9.899s] [ 97%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/receiver/receiver.cpp.o[0m
+[9.941s] [ 98%] [32m[1mLinking CXX executable vrpn_server[0m
+[9.941s] [ 98%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/sender/Poser.cpp.o[0m
+[9.942s] [ 98%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/sender/Text_Sender.cpp.o[0m
+[9.983s] [ 99%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/sender/sender.cpp.o[0m
+[10.065s] [ 99%] [32mBuilding CXX object python/CMakeFiles/vrpn-python.dir/tools.cpp.o[0m
+[10.185s] [ 99%] Built target vrpn_server
+[10.524s] [100%] [32m[1mLinking CXX shared module vrpn.so[0m
+[10.599s] [100%] Built target vrpn-python
+[10.607s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn -- -j12 -l12
+[10.730s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn
+[10.734s] -- Install configuration: "RelWithDebInfo"
+[10.734s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/libvrpnserver.a
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Configure.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog_Output.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Assert.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Auxiliary_Logger.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_BaseClass.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Button.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Connection.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ConnectionPtr.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Dial.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_EndpointContainer.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FileConnection.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FileController.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ForceDevice.h
+[10.750s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ForwarderController.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Forwarder.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FunctionGenerator.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Imager.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_LamportClock.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Log.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_MainloopContainer.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_MainloopObject.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Mutex.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_OwningPtr.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_RedundantTransmission.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_SendTextMessageStreamProxy.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Serial.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_SerialPort.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Shared.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_SharedObject.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Sound.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Text.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Thread.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Types.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_WindowsH.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_3DConnexion.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_3DMicroscribe.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_3Space.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_5DT16.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Adafruit.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ADBox.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog_5dt.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog_5dtUSB.h
+[10.751s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog_Radamec_SPI.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog_USDigital_A2.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Atmel.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_BiosciencesTools.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Button_NI_DIO24.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Button_USB.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_CerealBox.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_CHProducts_Controller_Raw.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Contour.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_DevInput.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_DirectXFFJoystick.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_DirectXRumblePad.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_DreamCheeky.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Dyna.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Event_Analog.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Event.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Event_Mouse.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Flock.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Flock_Parallel.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ForceDeviceServer.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Freespace.h
+[10.752s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FunctionGenerator.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Futaba.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_GlobalHapticsOrb.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Griffin.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_HashST.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_HumanInterface.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_IDEA.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Imager_Stream_Buffer.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ImmersionBox.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_inertiamouse.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_JoyFly.h
+[10.752s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Joylin.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Joywin32.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Keyboard.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Logitech_Controller_Raw.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Laputa.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_LUDL.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Magellan.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_MessageMacros.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Microsoft_Controller_Raw.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Mouse.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_NationalInstruments.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Nidaq.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_nikon_controls.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_nVidia_shield_controller.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Oculus.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_OmegaTemperature.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_OneEuroFilter.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_OzzMaker.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Poser_Analog.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Poser.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Poser_Tek4662.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_raw_sgibox.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Retrolink.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Saitek_Controller_Raw.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_sgibox.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Spaceball.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Streaming_Arduino.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tng3.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_3DMouse.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_AnalogFly.h
+[10.753s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_ButtonFly.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Crossbow.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_DTrack.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Fastrak.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Filter.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_GameTrak.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_GPS.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_IMU.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_isense.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Isotrak.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_JsonNet.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Liberty.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_MotionNode.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_NDI_Polaris.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_NovintFalcon.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_OSVRHackerDevKit.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_PDI.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_PhaseSpace.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_RazerHydra.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_ThalmicLabsMyo.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_SpacePoint.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Wintracker.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_Colibri.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_TrivisioColibri.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_WiimoteHead.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_zSight.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_ViewPoint.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_UNC_Joystick.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_VPJoystick.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Wanda.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_WiiMote.h
+[10.754s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_XInputGamepad.h
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Xkeys.h
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker_LibertyHS.h
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_YEI_3Space.h
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Zaber.h
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Generic_server_object.h
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/share/vrpn/package.xml
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/share/vrpn/cmake/VRPNConfig.cmake
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/share/quatlib/cmake/quatlibConfig.cmake
+[10.755s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/libvrpn.a
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Configure.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Analog_Output.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Assert.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Auxiliary_Logger.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_BaseClass.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Button.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Connection.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ConnectionPtr.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Dial.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_EndpointContainer.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FileConnection.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FileController.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ForceDevice.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_ForwarderController.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Forwarder.h
+[10.758s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_FunctionGenerator.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Imager.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_LamportClock.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Log.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_MainloopContainer.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_MainloopObject.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Mutex.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_OwningPtr.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_RedundantTransmission.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_SendTextMessageStreamProxy.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Serial.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_SerialPort.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Shared.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_SharedObject.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Sound.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Text.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Thread.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Tracker.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_Types.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_WindowsH.h
+[10.759s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/libquat.a
+[10.759s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/quat.h
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/lib/libquat.a
+[10.759s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn/include/quat.h
+[10.759s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/libvrpn_atmel.a
+[10.759s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_atmellib_errno.h
+[10.759s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_atmellib.h
+[10.759s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/libgpsnmea.a
+[10.760s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/nmeaParser.h
+[10.760s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/utmCoord.h
+[10.760s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/latLonCoord.h
+[10.760s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/c_interface_example
+[10.761s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/vrpn_average_analogs
+[10.762s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/vrpn_print_devices
+[10.762s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/vrpn_print_performance
+[10.763s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/vrpn_print_messages
+[10.764s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/run_auxiliary_logger
+[10.764s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/vrpn_server
+[10.770s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/etc/vrpn.cfg
+[10.770s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/share/vrpn-07.34/vrpn.cfg.sample
+[10.770s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/libvrpn_timecode_generator.a
+[10.770s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/include/vrpn_timecode_generator.h
+[10.770s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/bin/vrpn_streamPrint
+[10.771s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn/lib/python3.8/dist-packages/vrpn.so
+[10.774s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn

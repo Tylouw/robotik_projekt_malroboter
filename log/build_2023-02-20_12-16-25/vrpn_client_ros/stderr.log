@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:45 (file):
+  file INSTALL cannot find
+  "/home/prakt3/praktikum_ws/src/vrpn_client_ros2/config/DEADJOE": Permission
+  denied.
+
+

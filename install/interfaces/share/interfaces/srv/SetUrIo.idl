@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/SetUrIo.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Bla")
+    struct SetUrIo_Request {
+      int64 set;
+    };
+    struct SetUrIo_Response {
+      int64 current;
+    };
+  };
+};

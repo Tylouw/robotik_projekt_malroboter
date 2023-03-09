@@ -1,0 +1,21 @@
+[1.187s] Invoking command in '/home/prakt3/praktikum_ws/src/move_client': PYTHONPATH=/home/prakt3/praktikum_ws/build/move_client/prefix_override:/home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_client build --build-base /home/prakt3/praktikum_ws/build/move_client/build install --record /home/prakt3/praktikum_ws/build/move_client/install.log --single-version-externally-managed
+[1.380s] running egg_info
+[1.380s] writing ../../build/move_client/move_client.egg-info/PKG-INFO
+[1.380s] writing dependency_links to ../../build/move_client/move_client.egg-info/dependency_links.txt
+[1.381s] writing entry points to ../../build/move_client/move_client.egg-info/entry_points.txt
+[1.381s] writing requirements to ../../build/move_client/move_client.egg-info/requires.txt
+[1.381s] writing top-level names to ../../build/move_client/move_client.egg-info/top_level.txt
+[1.414s] reading manifest file '../../build/move_client/move_client.egg-info/SOURCES.txt'
+[1.414s] writing manifest file '../../build/move_client/move_client.egg-info/SOURCES.txt'
+[1.415s] running build
+[1.415s] running build_py
+[1.415s] running install
+[1.416s] running install_lib
+[1.417s] running install_data
+[1.417s] running install_egg_info
+[1.419s] removing '/home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages/move_client-0.0.0-py3.8.egg-info' (and everything under it)
+[1.419s] Copying ../../build/move_client/move_client.egg-info to /home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages/move_client-0.0.0-py3.8.egg-info
+[1.420s] running install_scripts
+[1.436s] Installing client script to /home/prakt3/praktikum_ws/install/move_client/lib/move_client
+[1.437s] writing list of installed files to '/home/prakt3/praktikum_ws/build/move_client/install.log'
+[1.565s] Invoked command in '/home/prakt3/praktikum_ws/src/move_client' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/move_client/prefix_override:/home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_client build --build-base /home/prakt3/praktikum_ws/build/move_client/build install --record /home/prakt3/praktikum_ws/build/move_client/install.log --single-version-externally-managed

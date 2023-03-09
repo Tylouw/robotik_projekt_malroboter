@@ -1,0 +1,33 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/prakt3/praktikum_ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces",
+  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/Pointcoords.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/Waypoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/PointTranslation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/Move.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:msg/PointOrientation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/Picturetopoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/Getpose.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces:srv/SetUrIo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/Pointcoords.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/Waypoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/PointTranslation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/Move.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/msg/PointOrientation3D.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/Picturetopoints.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/Getpose.idl",
+    "/home/prakt3/praktikum_ws/build/interfaces/rosidl_adapter/interfaces/srv/SetUrIo.idl"
+  ]
+}

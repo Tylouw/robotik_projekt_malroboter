@@ -1,0 +1,24 @@
+[1.099s] Invoking command in '/home/prakt3/praktikum_ws/src/move_it_service_python': PYTHONPATH=/home/prakt3/praktikum_ws/build/move_it_service_python/prefix_override:/home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_it_service_python build --build-base /home/prakt3/praktikum_ws/build/move_it_service_python/build install --record /home/prakt3/praktikum_ws/build/move_it_service_python/install.log --single-version-externally-managed
+[1.312s] running egg_info
+[1.313s] writing ../../build/move_it_service_python/move_it_service_python.egg-info/PKG-INFO
+[1.313s] writing dependency_links to ../../build/move_it_service_python/move_it_service_python.egg-info/dependency_links.txt
+[1.313s] writing entry points to ../../build/move_it_service_python/move_it_service_python.egg-info/entry_points.txt
+[1.313s] writing requirements to ../../build/move_it_service_python/move_it_service_python.egg-info/requires.txt
+[1.313s] writing top-level names to ../../build/move_it_service_python/move_it_service_python.egg-info/top_level.txt
+[1.346s] reading manifest file '../../build/move_it_service_python/move_it_service_python.egg-info/SOURCES.txt'
+[1.347s] writing manifest file '../../build/move_it_service_python/move_it_service_python.egg-info/SOURCES.txt'
+[1.347s] running build
+[1.347s] running build_py
+[1.347s] running install
+[1.348s] running install_lib
+[1.349s] running install_data
+[1.350s] running install_egg_info
+[1.351s] removing '/home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python-0.0.0-py3.8.egg-info' (and everything under it)
+[1.351s] Copying ../../build/move_it_service_python/move_it_service_python.egg-info to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python-0.0.0-py3.8.egg-info
+[1.352s] running install_scripts
+[1.366s] Installing ralf script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.366s] Installing service script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.366s] Installing spirale script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.366s] Installing tf script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.367s] writing list of installed files to '/home/prakt3/praktikum_ws/build/move_it_service_python/install.log'
+[1.439s] Invoked command in '/home/prakt3/praktikum_ws/src/move_it_service_python' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/move_it_service_python/prefix_override:/home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_it_service_python build --build-base /home/prakt3/praktikum_ws/build/move_it_service_python/build install --record /home/prakt3/praktikum_ws/build/move_it_service_python/install.log --single-version-externally-managed

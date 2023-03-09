@@ -1,0 +1,6 @@
+Invoking command in '/home/prakt3/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/vrpn-release -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/vrpn
+Invoked command in '/home/prakt3/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/vrpn-release -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/vrpn
+Invoking command in '/home/prakt3/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn -- -j12 -l12
+Invoked command in '/home/prakt3/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn -- -j12 -l12
+Invoking command in '/home/prakt3/praktikum_ws/build/vrpn': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn
+Invoked command in '/home/prakt3/praktikum_ws/build/vrpn' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn

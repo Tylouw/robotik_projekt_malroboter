@@ -1,0 +1,19 @@
+{
+  "package_name": "robprakt_interfaces",
+  "output_dir": "/home/prakt3/praktikum_ws/build/robprakt_interfaces/rosidl_typesupport_fastrtps_c/robprakt_interfaces",
+  "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/prakt3/praktikum_ws/build/robprakt_interfaces/rosidl_adapter/robprakt_interfaces:srv/SetUrIo.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/prakt3/praktikum_ws/build/robprakt_interfaces/rosidl_adapter/robprakt_interfaces/srv/SetUrIo.idl"
+  ]
+}

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Move.srv
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/PointOrientation3D.idl"
+#include "interfaces/msg/PointTranslation3D.idl"
+#include "interfaces/msg/Waypoints.idl"
+
+module interfaces {
+  module srv {
+    struct Move_Request {
+      interfaces::msg::Waypoints waypoints;
+
+      interfaces::msg::PointOrientation3D planeorientation;
+    };
+    struct Move_Response {
+      interfaces::msg::PointTranslation3D pointtranslation;
+
+      interfaces::msg::PointOrientation3D pointorientation;
+    };
+  };
+};

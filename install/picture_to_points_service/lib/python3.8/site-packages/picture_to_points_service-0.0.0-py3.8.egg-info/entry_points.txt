@@ -1,0 +1,4 @@
+[console_scripts]
+client = picture_to_points_service.client_member_function:main
+service = picture_to_points_service.service_member_function:main
+

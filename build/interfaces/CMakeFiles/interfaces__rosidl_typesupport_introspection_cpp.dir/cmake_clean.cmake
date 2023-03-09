@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point_orientation3_d__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point_translation3_d__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pointcoords__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/waypoints__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/getpose__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/move__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/picturetopoints__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_ur_io__type_support.cpp.o"
+  "libinterfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libinterfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point_orientation3_d__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point_orientation3_d__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point_translation3_d__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point_translation3_d__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pointcoords__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pointcoords__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/waypoints__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/msg/detail/waypoints__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/getpose__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/getpose__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/move__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/move__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/picturetopoints__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/picturetopoints__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_ur_io__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_ur_io__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

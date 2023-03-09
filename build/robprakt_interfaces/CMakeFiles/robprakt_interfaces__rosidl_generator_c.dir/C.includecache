@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/prakt3/praktikum_ws/build/robprakt_interfaces/rosidl_generator_c/robprakt_interfaces/srv/detail/set_ur_io__functions.c
+robprakt_interfaces/srv/detail/set_ur_io__functions.h
+/home/prakt3/praktikum_ws/build/robprakt_interfaces/rosidl_generator_c/robprakt_interfaces/srv/detail/robprakt_interfaces/srv/detail/set_ur_io__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/robprakt_interfaces/msg/rosidl_generator_c__visibility_control.h
+
+rosidl_generator_c/robprakt_interfaces/srv/detail/set_ur_io__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/robprakt_interfaces/srv/detail/rosidl_runtime_c/visibility_control.h
+robprakt_interfaces/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/robprakt_interfaces/srv/detail/robprakt_interfaces/msg/rosidl_generator_c__visibility_control.h
+robprakt_interfaces/srv/detail/set_ur_io__struct.h
+rosidl_generator_c/robprakt_interfaces/srv/detail/robprakt_interfaces/srv/detail/set_ur_io__struct.h
+
+rosidl_generator_c/robprakt_interfaces/srv/detail/set_ur_io__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+

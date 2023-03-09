@@ -1,0 +1,197 @@
+[0.076s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/vrpn_client_ros2 -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/vrpn_client_ros
+[0.172s] -- The C compiler identification is GNU 9.4.0
+[0.257s] -- The CXX compiler identification is GNU 9.4.0
+[0.262s] -- Check for working C compiler: /usr/bin/cc
+[0.362s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.362s] -- Detecting C compiler ABI info
+[0.445s] -- Detecting C compiler ABI info - done
+[0.456s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++
+[0.570s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.571s] -- Detecting CXX compiler ABI info
+[0.892s] -- Detecting CXX compiler ABI info - done
+[0.910s] -- Detecting CXX compile features
+[0.910s] -- Detecting CXX compile features - done
+[0.912s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.967s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.967s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.102s] -- Found quatlib: /home/prakt3/praktikum_ws/install/vrpn/lib/libquat.a  
+[1.103s] -- Looking for pthread.h
+[1.391s] -- Looking for pthread.h - found
+[1.392s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.790s] -- Looking for pthread_create in pthreads
+[2.062s] -- Looking for pthread_create in pthreads - not found
+[2.062s] -- Looking for pthread_create in pthread
+[2.319s] -- Looking for pthread_create in pthread - found
+[2.320s] -- Found Threads: TRUE  
+[2.321s] -- Found VRPN: /home/prakt3/praktikum_ws/install/vrpn/lib/libvrpn.a  
+[2.323s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.417s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.889s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.930s] -- Found FastRTPS: /opt/ros/galactic/include  
+[3.038s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.119s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[3.123s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[3.148s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.324s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[3.363s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.442s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.445s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.445s] -- Configured cppcheck include dirs: /home/prakt3/praktikum_ws/src/vrpn_client_ros2/include
+[3.445s] -- Configured cppcheck exclude dirs and/or files: 
+[3.448s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.448s] -- Configured cpplint exclude dirs and/or files: 
+[3.449s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.450s] -- Added test 'lint_cmake' to check CMake code style
+[3.451s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.454s] -- Added test 'uncrustify' to check C / C++ code style
+[3.454s] -- Configured uncrustify additional arguments: 
+[3.455s] -- Added test 'xmllint' to check XML markup files
+[3.458s] -- Configuring done
+[3.473s] -- Generating done
+[3.474s] -- Build files have been written to: /home/prakt3/praktikum_ws/build/vrpn_client_ros
+[3.485s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/vrpn_client_ros2 -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/vrpn_client_ros
+[3.485s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+[3.581s] [35m[1mScanning dependencies of target vrpn_client_ros[0m
+[3.648s] [ 14%] [32mBuilding CXX object CMakeFiles/vrpn_client_ros.dir/src/vrpn_client_ros.cpp.o[0m
+[3.668s] [ 28%] [32mBuilding CXX object CMakeFiles/vrpn_client_ros.dir/src/time_manager.cpp.o[0m
+[5.506s] In file included from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/time_manager.cpp:2[m[K:
+[5.506s] [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:22:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.506s]    22 |     rclcpp::Duration offset_ = rclcpp::Duration(0.0[01;35m[K)[m[K;
+[5.506s]       |                                                    [01;35m[K^[m[K
+[5.506s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[5.506s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[5.507s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.507s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[5.507s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[5.507s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:4[m[K,
+[5.507s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/time_manager.cpp:2[m[K:
+[5.507s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.507s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[5.507s]       |            [01;36m[K^~~~~~~~[m[K
+[5.508s] [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/time_manager.cpp:[m[K In member function ‘[01m[Krclcpp::Time vrpn_client_ros::TimeManager::resolve_timestamp(const timeval&, rclcpp::Node::SharedPtr)[m[K’:
+[5.508s] [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/time_manager.cpp:34:45:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.508s]    34 |       offset_ = rclcpp::Duration(min_offset_[01;35m[K)[m[K;
+[5.508s]       |                                             [01;35m[K^[m[K
+[5.508s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[5.508s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[5.508s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[5.508s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[5.509s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[5.509s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:4[m[K,
+[5.509s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/time_manager.cpp:2[m[K:
+[5.509s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.509s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[5.509s]       |            [01;36m[K^~~~~~~~[m[K
+[5.591s] In file included from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/vrpn_client_ros.h:36[m[K,
+[5.591s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/vrpn_client_ros.cpp:32[m[K:
+[5.591s] [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:22:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[5.591s]    22 |     rclcpp::Duration offset_ = rclcpp::Duration(0.0[01;35m[K)[m[K;
+[5.591s]       |                                                    [01;35m[K^[m[K
+[5.591s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[5.591s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[5.591s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:4[m[K,
+[5.591s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/vrpn_client_ros.h:36[m[K,
+[5.592s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/vrpn_client_ros.cpp:32[m[K:
+[5.592s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.592s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[5.592s]       |            [01;36m[K^~~~~~~~[m[K
+[8.471s] [ 42%] [32m[1mLinking CXX static library libvrpn_client_ros.a[0m
+[8.519s] [ 42%] Built target vrpn_client_ros
+[8.528s] [35m[1mScanning dependencies of target vrpn_tracker_node[0m
+[8.528s] [35m[1mScanning dependencies of target vrpn_client_node[0m
+[8.561s] [ 71%] [32mBuilding CXX object CMakeFiles/vrpn_tracker_node.dir/src/vrpn_tracker_node.cpp.o[0m
+[8.561s] [ 71%] [32mBuilding CXX object CMakeFiles/vrpn_client_node.dir/src/vrpn_client_node.cpp.o[0m
+[10.079s] In file included from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/vrpn_client_ros.h:36[m[K,
+[10.079s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/vrpn_client_node.cpp:32[m[K:
+[10.079s] [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:22:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[10.079s]    22 |     rclcpp::Duration offset_ = rclcpp::Duration(0.0[01;35m[K)[m[K;
+[10.079s]       |                                                    [01;35m[K^[m[K
+[10.079s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[10.079s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[10.079s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[10.080s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[10.080s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:4[m[K,
+[10.080s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/vrpn_client_ros.h:36[m[K,
+[10.080s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/vrpn_client_node.cpp:32[m[K:
+[10.080s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.080s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[10.081s]       |            [01;36m[K^~~~~~~~[m[K
+[10.128s] In file included from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/vrpn_client_ros.h:36[m[K,
+[10.129s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/vrpn_tracker_node.cpp:32[m[K:
+[10.129s] [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:22:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’ is deprecated: Use Duration::from_nanoseconds instead or std::chrono_literals. For example:rclcpp::Duration::from_nanoseconds(int64_variable);rclcpp::Duration(0ns); [[01;35m[K-Wdeprecated-declarations[m[K]
+[10.129s]    22 |     rclcpp::Duration offset_ = rclcpp::Duration(0.0[01;35m[K)[m[K;
+[10.129s]       |                                                    [01;35m[K^[m[K
+[10.129s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/qos.hpp:20[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:34[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[10.129s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[10.129s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/time_manager.h:4[m[K,
+[10.129s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/include/vrpn_client_ros/vrpn_client_ros.h:36[m[K,
+[10.129s]                  from [01m[K/home/prakt3/praktikum_ws/src/vrpn_client_ros2/src/vrpn_tracker_node.cpp:32[m[K:
+[10.129s] [01m[K/opt/ros/galactic/include/rclcpp/duration.hpp:46:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.129s]    46 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[10.130s]       |            [01;36m[K^~~~~~~~[m[K
+[11.216s] [ 85%] [32m[1mLinking CXX executable vrpn_tracker_node[0m
+[11.306s] [100%] [32m[1mLinking CXX executable vrpn_client_node[0m
+[11.636s] [100%] Built target vrpn_client_node
+[11.777s] [100%] Built target vrpn_tracker_node
+[11.804s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+[11.944s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros
+[11.960s] CMake Error at cmake_install.cmake:45 (file):
+[11.960s]   file INSTALL cannot find
+[11.960s]   "/home/prakt3/praktikum_ws/src/vrpn_client_ros2/config/DEADJOE": Permission
+[11.960s]   denied.
+[11.960s] 
+[11.960s] 
+[11.961s] -- Install configuration: ""
+[11.961s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch
+[11.961s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+[11.961s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config
+[11.961s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+[11.961s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml~
+[11.961s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/rob_optitrack.params.yaml
+[11.964s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros

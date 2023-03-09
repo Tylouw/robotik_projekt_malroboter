@@ -1,0 +1,79 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/prakt3/praktikum_ws/build/pymoveit2
+[35m[1mScanning dependencies of target ament_cmake_python_copy_pymoveit2[0m
+Built target ament_cmake_python_copy_pymoveit2
+[35m[1mScanning dependencies of target ament_cmake_python_build_pymoveit2_egg[0m
+running egg_info
+creating pymoveit2.egg-info
+writing pymoveit2.egg-info/PKG-INFO
+writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+writing top-level names to pymoveit2.egg-info/top_level.txt
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_pymoveit2_egg
+-- Install configuration: ""
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/PKG-INFO
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/dependency_links.txt
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/SOURCES.txt
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/top_level.txt
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_servo.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/panda.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/ur5e.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/__init__.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/__init__.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/gripper_command.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_gripper.py
+Listing '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/__init__.py'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/gripper_command.py'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2.py'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_gripper.py'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_servo.py'...
+Listing '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/__init__.py'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/panda.py'...
+Compiling '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/ur5e.py'...
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_collision_object_ur.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_joint_goal_ur.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_pose_goal_ur.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_servo_ur.py
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.sh
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.bash
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.sh
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.zsh
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/package.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/package.xml

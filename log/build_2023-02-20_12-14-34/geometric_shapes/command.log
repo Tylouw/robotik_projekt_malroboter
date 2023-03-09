@@ -1,0 +1,3 @@
+Invoking command in '/home/prakt3/praktikum_ws/build/geometric_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/geometric_shapes -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/geometric_shapes
+Invoked command in '/home/prakt3/praktikum_ws/build/geometric_shapes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/geometric_shapes -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/geometric_shapes
+Invoking command in '/home/prakt3/praktikum_ws/build/geometric_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/geometric_shapes -- -j12 -l12

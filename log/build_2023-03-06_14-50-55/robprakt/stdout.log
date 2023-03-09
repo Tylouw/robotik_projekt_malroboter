@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/prakt3/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robprakt/robprakt.egg-info to /home/prakt3/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/prakt3/praktikum_ws/install/robprakt/lib/robprakt
+Installing get_matrices script to /home/prakt3/praktikum_ws/install/robprakt/lib/robprakt
+Installing vacuum_control script to /home/prakt3/praktikum_ws/install/robprakt/lib/robprakt
+writing list of installed files to '/home/prakt3/praktikum_ws/build/robprakt/install.log'

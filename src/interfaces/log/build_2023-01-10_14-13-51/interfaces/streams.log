@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prakt3/praktikum_ws/install/robprakt:/home/prakt3/praktikum_ws/install/picture_to_points_service:/home/prakt3/praktikum_ws/install/calibration:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/install/interfaces
+[0.040s] -- The C compiler identification is GNU 9.4.0
+[0.074s] -- The CXX compiler identification is GNU 9.4.0
+[0.077s] -- Check for working C compiler: /usr/bin/cc
+[0.127s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.127s] -- Detecting C compiler ABI info
+[0.179s] -- Detecting C compiler ABI info - done
+[0.186s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++
+[0.237s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.238s] -- Detecting CXX compiler ABI info
+[0.298s] -- Detecting CXX compiler ABI info - done
+[0.304s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.306s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.321s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.368s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.411s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.414s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.477s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.497s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.689s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.689s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.689s]   interfaces --arguments-file
+[0.689s]   /home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/build/interfaces/rosidl_adapter__arguments__interfaces.json
+[0.689s]   --output-dir
+[0.689s]   /home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/build/interfaces/rosidl_adapter/interfaces
+[0.689s]   --output-file
+[0.689s]   /home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/build/interfaces/rosidl_adapter/interfaces.idls)
+[0.689s]   returned error code 1:
+[0.689s] 
+[0.689s]   Error processing 'PointTranslation3D pointTranslation' of
+[0.689s]   'interfaces/Getpose_Response': ''pointTranslation' is an invalid field
+[0.689s]   name.  It should have the pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.689s] 
+[0.689s]   Traceback (most recent call last):
+[0.689s] 
+[0.689s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.689s]       return _run_code(code, main_globals, None,
+[0.689s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.689s]       exec(code, run_globals)
+[0.689s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.689s]       sys.exit(main())
+[0.689s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.689s]       abs_idl_file = convert_to_idl(
+[0.689s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.689s]       return convert_srv_to_idl(
+[0.689s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.689s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.689s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 856, in parse_service_string
+[0.689s]       response_message = parse_message_string(
+[0.690s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[0.690s]       fields.append(Field(
+[0.690s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[0.690s]       raise NameError(
+[0.690s] 
+[0.690s]   NameError: 'pointTranslation' is an invalid field name.  It should have the
+[0.690s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.690s] 
+[0.690s] Call Stack (most recent call first):
+[0.690s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.690s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[0.690s] 
+[0.690s] 
+[0.690s] -- Configuring incomplete, errors occurred!
+[0.690s] See also "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.694s] Invoked command in '/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/build/interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prakt3/praktikum_ws/install/robprakt:/home/prakt3/praktikum_ws/install/picture_to_points_service:/home/prakt3/praktikum_ws/install/calibration:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces/install/interfaces

@@ -1,0 +1,52 @@
+[  6%] Built target gtest
+[ 12%] Built target gtest_main
+[ 39%] Built target geometric_shapes
+[ 45%] Built target test_basics
+[ 51%] Built target test_bounding_cylinder
+[ 57%] Built target test_point_inclusion
+[ 63%] Built target test_bounding_sphere
+[ 69%] Built target test_ray_intersection
+[ 75%] Built target test_create_mesh
+[ 81%] Built target test_loaded_meshes
+[ 87%] Built target test_bounding_box
+[ 93%] Built target test_shapes
+[100%] Built target test_body_operations
+-- Install configuration: "Release"
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/lib/libgeometric_shapes.so.2.1.2
+-- Set runtime path of "/home/prakt3/praktikum_ws/install/geometric_shapes/lib/libgeometric_shapes.so.2.1.2" to ""
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/lib/libgeometric_shapes.so
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/shape_operations.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/check_isometry.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/body_operations.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/shape_extents.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/bodies.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/aabb.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/shapes.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/solid_primitive_dims.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/shape_messages.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/shape_to_marker.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/include/geometric_shapes/mesh_operations.h
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/environment/library_path.sh
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/environment/library_path.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/ament_index/resource_index/package_run_dependencies/geometric_shapes
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/ament_index/resource_index/parent_prefix_path/geometric_shapes
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/environment/ament_prefix_path.sh
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/environment/ament_prefix_path.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/environment/path.sh
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/environment/path.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/local_setup.bash
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/local_setup.sh
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/local_setup.zsh
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/local_setup.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/package.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/ament_index/resource_index/packages/geometric_shapes
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/export_geometric_shapesExport.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/export_geometric_shapesExport-release.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/ConfigExtras.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/cmake/geometric_shapesConfig-version.cmake
+-- Installing: /home/prakt3/praktikum_ws/install/geometric_shapes/share/geometric_shapes/package.xml

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/picture_to_points_service/picture_to_points_service.egg-info/PKG-INFO
+../../build/picture_to_points_service/picture_to_points_service.egg-info/SOURCES.txt
+../../build/picture_to_points_service/picture_to_points_service.egg-info/dependency_links.txt
+../../build/picture_to_points_service/picture_to_points_service.egg-info/entry_points.txt
+../../build/picture_to_points_service/picture_to_points_service.egg-info/requires.txt
+../../build/picture_to_points_service/picture_to_points_service.egg-info/top_level.txt
+../../build/picture_to_points_service/picture_to_points_service.egg-info/zip-safe
+picture_to_points_service/__init__.py
+picture_to_points_service/client_member_function.py
+picture_to_points_service/service_member_function.py
+resource/picture_to_points_service

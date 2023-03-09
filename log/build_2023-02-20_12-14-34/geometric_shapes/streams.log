@@ -1,0 +1,120 @@
+[0.048s] Invoking command in '/home/prakt3/praktikum_ws/build/geometric_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/geometric_shapes -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/geometric_shapes
+[0.701s] -- The C compiler identification is GNU 9.4.0
+[0.701s] -- The CXX compiler identification is GNU 9.4.0
+[0.701s] -- Check for working C compiler: /usr/bin/cc
+[0.701s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.701s] -- Detecting C compiler ABI info
+[0.701s] -- Detecting C compiler ABI info - done
+[0.701s] -- Detecting C compile features
+[0.701s] -- Detecting C compile features - done
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.701s] -- Detecting CXX compiler ABI info
+[0.701s] -- Detecting CXX compiler ABI info - done
+[0.701s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.701s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.702s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[0.702s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.702s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.702s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem 
+[0.702s] -- Found console_bridge_vendor: 1.3.2 (/opt/ros/galactic/share/console_bridge_vendor/cmake)
+[0.702s] -- Found eigen_stl_containers: 1.0.0 (/opt/ros/galactic/share/eigen_stl_containers/cmake)
+[0.702s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.702s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.702s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.702s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.702s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] geometric_shapes: You did not request a specific build type: Choosing 'Release' for maximum performance
+[0.745s] -- Found QHULL: /usr/lib/x86_64-linux-gnu/libqhull_r.so  
+[0.746s] -- QHULL found (include: /usr/include/libqhull_r, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull_r.so;debug;/usr/lib/x86_64-linux-gnu/libqhull_r.so)
+[0.747s] -- Found random_numbers: 2.0.1 (/opt/ros/galactic/share/random_numbers/cmake)
+[0.755s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.815s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.816s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.837s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.838s] -- Looking for pthread.h
+[0.894s] -- Looking for pthread.h - found
+[0.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.961s] -- Looking for pthread_create in pthreads
+[1.026s] -- Looking for pthread_create in pthreads - not found
+[1.026s] -- Looking for pthread_create in pthread
+[1.076s] -- Looking for pthread_create in pthread - found
+[1.077s] -- Found Threads: TRUE  
+[1.222s] -- Found resource_retriever: 2.5.0 (/opt/ros/galactic/share/resource_retriever/cmake)
+[1.365s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.367s] -- Found shape_msgs: 2.2.4 (/opt/ros/galactic/share/shape_msgs/cmake)
+[1.437s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[1.570s] -- Found ament_cmake_gtest: 1.1.6 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[1.574s] -- Found gtest sources under '/opt/ros/galactic/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.576s] -- Check if compiler accepts -pthread
+[1.699s] -- Check if compiler accepts -pthread - yes
+[1.720s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.738s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.742s] -- Configuring done
+[1.813s] -- Generating done
+[1.815s] -- Build files have been written to: /home/prakt3/praktikum_ws/build/geometric_shapes
+[1.839s] Invoked command in '/home/prakt3/praktikum_ws/build/geometric_shapes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake /home/prakt3/praktikum_ws/src/geometric_shapes -DCMAKE_INSTALL_PREFIX=/home/prakt3/praktikum_ws/install/geometric_shapes
+[1.840s] Invoking command in '/home/prakt3/praktikum_ws/build/geometric_shapes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/geometric_shapes -- -j12 -l12
+[1.895s] [35m[1mScanning dependencies of target geometric_shapes[0m
+[1.904s] [35m[1mScanning dependencies of target gtest[0m
+[1.920s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.929s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.934s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.963s] [  9%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/aabb.cpp.o[0m
+[1.965s] [ 12%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/bodies.cpp.o[0m
+[1.977s] [ 15%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/body_operations.cpp.o[0m
+[1.990s] [ 18%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/mesh_operations.cpp.o[0m
+[1.992s] [ 21%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_extents.cpp.o[0m
+[2.011s] [ 24%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_operations.cpp.o[0m
+[2.067s] [ 27%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shape_to_marker.cpp.o[0m
+[2.083s] [ 30%] [32mBuilding CXX object CMakeFiles/geometric_shapes.dir/src/shapes.cpp.o[0m
+[4.014s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[4.192s] [ 33%] Built target gtest_main
+[10.771s] [ 36%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.794s] [ 36%] Built target gtest
+[10.800s] [35m[1mScanning dependencies of target test_basics[0m
+[10.820s] [ 39%] [32mBuilding CXX object test/CMakeFiles/test_basics.dir/test_basics.cpp.o[0m
+[10.889s] [ 42%] [32m[1mLinking CXX shared library libgeometric_shapes.so[0m
+[11.001s] [ 42%] Built target geometric_shapes
+[11.009s] [35m[1mScanning dependencies of target test_bounding_sphere[0m
+[11.010s] [35m[1mScanning dependencies of target test_point_inclusion[0m
+[11.010s] [35m[1mScanning dependencies of target test_bounding_box[0m
+[11.010s] [35m[1mScanning dependencies of target test_bounding_cylinder[0m
+[11.011s] [35m[1mScanning dependencies of target test_loaded_meshes[0m
+[11.040s] [35m[1mScanning dependencies of target test_shapes[0m
+[11.040s] [35m[1mScanning dependencies of target test_body_operations[0m
+[11.040s] [35m[1mScanning dependencies of target test_create_mesh[0m
+[11.058s] [35m[1mScanning dependencies of target test_ray_intersection[0m
+[11.059s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_bounding_box.dir/test_bounding_box.cpp.o[0m
+[11.068s] [ 48%] [32mBuilding CXX object test/CMakeFiles/test_bounding_cylinder.dir/test_bounding_cylinder.cpp.o[0m
+[11.073s] [ 51%] [32mBuilding CXX object test/CMakeFiles/test_point_inclusion.dir/test_point_inclusion.cpp.o[0m
+[11.086s] [ 54%] [32mBuilding CXX object test/CMakeFiles/test_bounding_sphere.dir/test_bounding_sphere.cpp.o[0m
+[11.089s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_loaded_meshes.dir/test_loaded_meshes.cpp.o[0m
+[11.111s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_body_operations.dir/test_body_operations.cpp.o[0m
+[11.117s] [ 63%] [32mBuilding CXX object test/CMakeFiles/test_create_mesh.dir/test_create_mesh.cpp.o[0m
+[11.145s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_shapes.dir/test_shapes.cpp.o[0m
+[11.147s] [ 69%] [32mBuilding CXX object test/CMakeFiles/test_ray_intersection.dir/test_ray_intersection.cpp.o[0m
+[13.561s] [ 72%] [32m[1mLinking CXX executable test_create_mesh[0m
+[13.957s] [ 72%] Built target test_create_mesh
+[14.575s] [ 75%] [32m[1mLinking CXX executable test_bounding_sphere[0m
+[14.826s] [ 75%] Built target test_bounding_sphere
+[15.239s] [ 78%] [32m[1mLinking CXX executable test_loaded_meshes[0m
+[15.467s] [ 78%] Built target test_loaded_meshes
+[15.501s] [ 81%] [32m[1mLinking CXX executable test_basics[0m
+[15.620s] [ 81%] Built target test_basics
+[16.060s] [ 84%] [32m[1mLinking CXX executable test_body_operations[0m
+[16.265s] [ 84%] Built target test_body_operations
+[16.478s] [ 87%] [32m[1mLinking CXX executable test_bounding_box[0m
+[16.501s] [ 90%] [32m[1mLinking CXX executable test_shapes[0m
+[16.684s] [ 90%] Built target test_bounding_box
+[16.691s] [ 90%] Built target test_shapes
+[16.749s] [ 93%] [32m[1mLinking CXX executable test_bounding_cylinder[0m
+[17.008s] [ 93%] Built target test_bounding_cylinder
+[17.782s] [ 96%] [32m[1mLinking CXX executable test_point_inclusion[0m
+[17.962s] [ 96%] Built target test_point_inclusion
+[44.012s] [100%] [32m[1mLinking CXX executable test_ray_intersection[0m
+[44.116s] [100%] Built target test_ray_intersection

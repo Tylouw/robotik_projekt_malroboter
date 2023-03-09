@@ -1,0 +1,4 @@
+Invoking command in '/home/prakt3/praktikum_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/rviz_visual_tools -- -j12 -l12
+Invoked command in '/home/prakt3/praktikum_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/rviz_visual_tools -- -j12 -l12
+Invoking command in '/home/prakt3/praktikum_ws/build/rviz_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/rviz_visual_tools
+Invoked command in '/home/prakt3/praktikum_ws/build/rviz_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/rviz_visual_tools

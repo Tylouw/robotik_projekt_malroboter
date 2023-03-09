@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/robprakt/robprakt.egg-info/PKG-INFO
+../../build/robprakt/robprakt.egg-info/SOURCES.txt
+../../build/robprakt/robprakt.egg-info/dependency_links.txt
+../../build/robprakt/robprakt.egg-info/entry_points.txt
+../../build/robprakt/robprakt.egg-info/requires.txt
+../../build/robprakt/robprakt.egg-info/top_level.txt
+../../build/robprakt/robprakt.egg-info/zip-safe
+resource/robprakt
+robprakt/__init__.py
+robprakt/get_matrices.py
+robprakt/vacuum_client.py
+robprakt/vacuum_control.py

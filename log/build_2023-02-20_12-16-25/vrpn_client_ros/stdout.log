@@ -1,0 +1,10 @@
+[ 42%] Built target vrpn_client_ros
+[ 85%] Built target vrpn_client_node
+[100%] Built target vrpn_tracker_node
+-- Install configuration: ""
+-- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch
+-- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config
+-- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+-- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml~
+-- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/rob_optitrack.params.yaml

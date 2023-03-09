@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>robprakt</name>
+  <version>0.0.0</version>
+  <description>Package and node for vacuum gripper control</description>
+  <maintainer email="bruder@rob.uni-luebeck.de">rob</maintainer>
+  <license>Apache License 2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>example_interfaces</depend>
+  <depend>robprakt_interfaces</depend>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

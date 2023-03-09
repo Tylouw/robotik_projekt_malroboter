@@ -1,0 +1,30 @@
+[1.169s] Invoking command in '/home/prakt3/praktikum_ws/src/tracking_service': PYTHONPATH=/home/prakt3/praktikum_ws/build/tracking_service/prefix_override:/home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracking_service build --build-base /home/prakt3/praktikum_ws/build/tracking_service/build install --record /home/prakt3/praktikum_ws/build/tracking_service/install.log --single-version-externally-managed
+[1.372s] running egg_info
+[1.372s] writing ../../build/tracking_service/tracking_service.egg-info/PKG-INFO
+[1.372s] writing dependency_links to ../../build/tracking_service/tracking_service.egg-info/dependency_links.txt
+[1.372s] writing entry points to ../../build/tracking_service/tracking_service.egg-info/entry_points.txt
+[1.372s] writing requirements to ../../build/tracking_service/tracking_service.egg-info/requires.txt
+[1.373s] writing top-level names to ../../build/tracking_service/tracking_service.egg-info/top_level.txt
+[1.407s] reading manifest file '../../build/tracking_service/tracking_service.egg-info/SOURCES.txt'
+[1.408s] writing manifest file '../../build/tracking_service/tracking_service.egg-info/SOURCES.txt'
+[1.408s] running build
+[1.408s] running build_py
+[1.408s] copying tracking_service/whiteboard_tracking.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.408s] copying tracking_service/penhold_tracking.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.408s] running install
+[1.409s] running install_lib
+[1.410s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/whiteboard_tracking.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.410s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/penhold_tracking.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.411s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/whiteboard_tracking.py to whiteboard_tracking.cpython-38.pyc
+[1.412s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/penhold_tracking.py to penhold_tracking.cpython-38.pyc
+[1.413s] running install_data
+[1.413s] running install_egg_info
+[1.415s] removing '/home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service-0.0.0-py3.8.egg-info' (and everything under it)
+[1.415s] Copying ../../build/tracking_service/tracking_service.egg-info to /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service-0.0.0-py3.8.egg-info
+[1.415s] running install_scripts
+[1.433s] Installing client script to /home/prakt3/praktikum_ws/install/tracking_service/lib/tracking_service
+[1.433s] Installing gripper script to /home/prakt3/praktikum_ws/install/tracking_service/lib/tracking_service
+[1.433s] Installing penhold script to /home/prakt3/praktikum_ws/install/tracking_service/lib/tracking_service
+[1.433s] Installing whiteboard script to /home/prakt3/praktikum_ws/install/tracking_service/lib/tracking_service
+[1.433s] writing list of installed files to '/home/prakt3/praktikum_ws/build/tracking_service/install.log'
+[1.528s] Invoked command in '/home/prakt3/praktikum_ws/src/tracking_service' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/tracking_service/prefix_override:/home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracking_service build --build-base /home/prakt3/praktikum_ws/build/tracking_service/build install --record /home/prakt3/praktikum_ws/build/tracking_service/install.log --single-version-externally-managed

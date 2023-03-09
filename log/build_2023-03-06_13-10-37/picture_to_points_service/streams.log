@@ -1,0 +1,22 @@
+[0.605s] Invoking command in '/home/prakt3/praktikum_ws/src/picture_to_points_service': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/interfaces LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/build/picture_to_points_service/prefix_override:/home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages:/home/prakt3/praktikum_ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picture_to_points_service build --build-base /home/prakt3/praktikum_ws/build/picture_to_points_service/build install --record /home/prakt3/praktikum_ws/build/picture_to_points_service/install.log --single-version-externally-managed
+[0.793s] running egg_info
+[0.793s] writing ../../build/picture_to_points_service/picture_to_points_service.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/picture_to_points_service/picture_to_points_service.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/picture_to_points_service/picture_to_points_service.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/picture_to_points_service/picture_to_points_service.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/picture_to_points_service/picture_to_points_service.egg-info/top_level.txt
+[0.827s] reading manifest file '../../build/picture_to_points_service/picture_to_points_service.egg-info/SOURCES.txt'
+[0.828s] writing manifest file '../../build/picture_to_points_service/picture_to_points_service.egg-info/SOURCES.txt'
+[0.828s] running build
+[0.828s] running build_py
+[0.828s] running install
+[0.829s] running install_lib
+[0.830s] running install_data
+[0.830s] running install_egg_info
+[0.832s] removing '/home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages/picture_to_points_service-0.0.0-py3.8.egg-info' (and everything under it)
+[0.832s] Copying ../../build/picture_to_points_service/picture_to_points_service.egg-info to /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages/picture_to_points_service-0.0.0-py3.8.egg-info
+[0.833s] running install_scripts
+[0.848s] Installing client script to /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/picture_to_points_service
+[0.849s] Installing service script to /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/picture_to_points_service
+[0.849s] writing list of installed files to '/home/prakt3/praktikum_ws/build/picture_to_points_service/install.log'
+[0.867s] Invoked command in '/home/prakt3/praktikum_ws/src/picture_to_points_service' returned '0': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/interfaces LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/build/picture_to_points_service/prefix_override:/home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages:/home/prakt3/praktikum_ws/install/interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/picture_to_points_service build --build-base /home/prakt3/praktikum_ws/build/picture_to_points_service/build install --record /home/prakt3/praktikum_ws/build/picture_to_points_service/install.log --single-version-externally-managed

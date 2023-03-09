@@ -1,0 +1,63 @@
+[0.024s] Invoking command in '/home/prakt3/praktikum_ws/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:/home/prakt3/praktikum_ws/install/vrpn:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools/lib:/home/prakt3/praktikum_ws/install/rviz_visual_tools/lib:/home/prakt3/praktikum_ws/install/geometric_shapes/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/moveit2_tutorials -- -j12 -l12
+[0.099s] [ 12%] Built target robot_model_and_robot_state_tutorial
+[0.099s] [ 25%] Built target motion_planning_api_tutorial
+[0.102s] [ 50%] Built target servo_keyboard_input
+[0.102s] [ 50%] Built target planning_scene_ros_api_tutorial
+[0.104s] [ 62%] Built target planning_scene_tutorial
+[0.106s] [ 75%] Built target moveit_cpp_tutorial
+[0.106s] [ 87%] Built target move_group_interface_tutorial
+[0.111s] [100%] Built target servo_cpp_interface_demo
+[0.118s] Invoked command in '/home/prakt3/praktikum_ws/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:/home/prakt3/praktikum_ws/install/vrpn:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools/lib:/home/prakt3/praktikum_ws/install/rviz_visual_tools/lib:/home/prakt3/praktikum_ws/install/geometric_shapes/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/moveit2_tutorials -- -j12 -l12
+[0.136s] Invoking command in '/home/prakt3/praktikum_ws/build/moveit2_tutorials': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:/home/prakt3/praktikum_ws/install/vrpn:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools/lib:/home/prakt3/praktikum_ws/install/rviz_visual_tools/lib:/home/prakt3/praktikum_ws/install/geometric_shapes/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/moveit2_tutorials
+[0.141s] -- Install configuration: "Release"
+[0.141s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials
+[0.141s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv
+[0.142s] -- Installing: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.xml
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.142s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py
+[0.143s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[0.144s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py
+[0.145s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+[0.145s] -- Up-to-date: /home/prakt3/praktikum_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz
+[0.147s] Invoked command in '/home/prakt3/praktikum_ws/build/moveit2_tutorials' returned '0': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_moveit_config:/home/prakt3/praktikum_ws/install/rviz_visual_tools:/home/prakt3/praktikum_ws/install/moveit_resources_panda_description:/home/prakt3/praktikum_ws/install/geometric_shapes:/home/prakt3/praktikum_ws/install/vrpn:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_visual_tools/lib:/home/prakt3/praktikum_ws/install/rviz_visual_tools/lib:/home/prakt3/praktikum_ws/install/geometric_shapes/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/moveit2_tutorials

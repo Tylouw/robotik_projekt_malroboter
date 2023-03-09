@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prakt3/praktikum_ws/install/trajectory:/home/prakt3/praktikum_ws/install/tracking_service:/home/prakt3/praktikum_ws/install/robprakt:/home/prakt3/praktikum_ws/install/picture_to_points_service:/home/prakt3/praktikum_ws/install/move_it_service_python:/home/prakt3/praktikum_ws/install/move_client:/home/prakt3/praktikum_ws/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+[0.057s] [ 42%] Built target vrpn_client_ros
+[0.082s] [ 85%] Built target vrpn_client_node
+[0.082s] [100%] Built target vrpn_tracker_node
+[0.089s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prakt3/praktikum_ws/install/trajectory:/home/prakt3/praktikum_ws/install/tracking_service:/home/prakt3/praktikum_ws/install/robprakt:/home/prakt3/praktikum_ws/install/picture_to_points_service:/home/prakt3/praktikum_ws/install/move_it_service_python:/home/prakt3/praktikum_ws/install/move_client:/home/prakt3/praktikum_ws/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+[0.126s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prakt3/praktikum_ws/install/trajectory:/home/prakt3/praktikum_ws/install/tracking_service:/home/prakt3/praktikum_ws/install/robprakt:/home/prakt3/praktikum_ws/install/picture_to_points_service:/home/prakt3/praktikum_ws/install/move_it_service_python:/home/prakt3/praktikum_ws/install/move_client:/home/prakt3/praktikum_ws/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros
+[0.131s] -- Install configuration: ""
+[0.131s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch
+[0.131s] CMake Error at cmake_install.cmake:45 (file):
+[0.131s]   file INSTALL cannot find
+[0.131s]   "/home/prakt3/praktikum_ws/src/vrpn_client_ros2/config/DEADJOE": Permission
+[0.131s]   denied.
+[0.131s] 
+[0.131s] 
+[0.131s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+[0.131s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config
+[0.131s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+[0.131s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml~
+[0.131s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/rob_optitrack.params.yaml
+[0.132s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/prakt3/praktikum_ws/install/trajectory:/home/prakt3/praktikum_ws/install/tracking_service:/home/prakt3/praktikum_ws/install/robprakt:/home/prakt3/praktikum_ws/install/picture_to_points_service:/home/prakt3/praktikum_ws/install/move_it_service_python:/home/prakt3/praktikum_ws/install/move_client:/home/prakt3/praktikum_ws/install/launch_param_builder:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros

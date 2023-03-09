@@ -1,0 +1,47 @@
+[1.084s] Invoking command in '/home/prakt3/praktikum_ws/src/tracking_service': PYTHONPATH=/home/prakt3/praktikum_ws/build/tracking_service/prefix_override:/home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracking_service build --build-base /home/prakt3/praktikum_ws/build/tracking_service/build install --record /home/prakt3/praktikum_ws/build/tracking_service/install.log --single-version-externally-managed
+[1.357s] running egg_info
+[1.357s] creating ../../build/tracking_service/tracking_service.egg-info
+[1.357s] writing ../../build/tracking_service/tracking_service.egg-info/PKG-INFO
+[1.357s] writing dependency_links to ../../build/tracking_service/tracking_service.egg-info/dependency_links.txt
+[1.357s] writing entry points to ../../build/tracking_service/tracking_service.egg-info/entry_points.txt
+[1.357s] writing requirements to ../../build/tracking_service/tracking_service.egg-info/requires.txt
+[1.357s] writing top-level names to ../../build/tracking_service/tracking_service.egg-info/top_level.txt
+[1.357s] writing manifest file '../../build/tracking_service/tracking_service.egg-info/SOURCES.txt'
+[1.357s] reading manifest file '../../build/tracking_service/tracking_service.egg-info/SOURCES.txt'
+[1.357s] writing manifest file '../../build/tracking_service/tracking_service.egg-info/SOURCES.txt'
+[1.358s] running build
+[1.358s] running build_py
+[1.358s] creating /home/prakt3/praktikum_ws/build/tracking_service/build
+[1.358s] creating /home/prakt3/praktikum_ws/build/tracking_service/build/lib
+[1.358s] creating /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.358s] copying tracking_service/gripper_tracking.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.358s] copying tracking_service/whiteboard_tracking.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.358s] copying tracking_service/penhold_tracking.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.358s] copying tracking_service/test_client.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.358s] copying tracking_service/__init__.py -> /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service
+[1.358s] running install
+[1.358s] running install_lib
+[1.358s] creating /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.358s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/gripper_tracking.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.358s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/whiteboard_tracking.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.358s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/penhold_tracking.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.358s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/test_client.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.358s] copying /home/prakt3/praktikum_ws/build/tracking_service/build/lib/tracking_service/__init__.py -> /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service
+[1.358s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/gripper_tracking.py to gripper_tracking.cpython-38.pyc
+[1.358s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/whiteboard_tracking.py to whiteboard_tracking.cpython-38.pyc
+[1.358s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/penhold_tracking.py to penhold_tracking.cpython-38.pyc
+[1.359s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/test_client.py to test_client.cpython-38.pyc
+[1.359s] byte-compiling /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service/__init__.py to __init__.cpython-38.pyc
+[1.359s] running install_data
+[1.359s] creating /home/prakt3/praktikum_ws/install/tracking_service/share/ament_index
+[1.359s] creating /home/prakt3/praktikum_ws/install/tracking_service/share/ament_index/resource_index
+[1.359s] creating /home/prakt3/praktikum_ws/install/tracking_service/share/ament_index/resource_index/packages
+[1.359s] copying resource/tracking_service -> /home/prakt3/praktikum_ws/install/tracking_service/share/ament_index/resource_index/packages
+[1.359s] copying package.xml -> /home/prakt3/praktikum_ws/install/tracking_service/share/tracking_service
+[1.359s] running install_egg_info
+[1.359s] Copying ../../build/tracking_service/tracking_service.egg-info to /home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages/tracking_service-0.0.0-py3.8.egg-info
+[1.359s] running install_scripts
+[1.359s] Installing gripper script to /home/prakt3/praktikum_ws/install/tracking_service/lib/tracking_service
+[1.359s] Installing whiteboard script to /home/prakt3/praktikum_ws/install/tracking_service/lib/tracking_service
+[1.359s] writing list of installed files to '/home/prakt3/praktikum_ws/build/tracking_service/install.log'
+[1.415s] Invoked command in '/home/prakt3/praktikum_ws/src/tracking_service' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/tracking_service/prefix_override:/home/prakt3/praktikum_ws/install/tracking_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tracking_service build --build-base /home/prakt3/praktikum_ws/build/tracking_service/build install --record /home/prakt3/praktikum_ws/build/tracking_service/install.log --single-version-externally-managed

@@ -1,0 +1,32 @@
+[0.195s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+[0.248s] [ 42%] Built target vrpn_client_ros
+[0.275s] [ 71%] Built target vrpn_tracker_node
+[0.293s] [100%] Built target vrpn_client_node
+[0.512s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+[0.653s] Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros
+[0.659s] -- Install configuration: ""
+[0.660s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch
+[0.660s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//launch/sample.launch.py
+[0.660s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config
+[0.660s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/sample.params.yaml~
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros//config/rob_optitrack.params.yaml
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/lib/libvrpn_client_ros.a
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_tracker_node
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/lib/vrpn_client_ros/vrpn_client_node
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/ament_index/resource_index/package_run_dependencies/vrpn_client_ros
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/ament_index/resource_index/parent_prefix_path/vrpn_client_ros
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.sh
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/ament_prefix_path.dsv
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.sh
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/environment/path.dsv
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.bash
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.sh
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.zsh
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/local_setup.dsv
+[0.661s] -- Installing: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.dsv
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/ament_index/resource_index/packages/vrpn_client_ros
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig.cmake
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/cmake/vrpn_client_rosConfig-version.cmake
+[0.661s] -- Up-to-date: /home/prakt3/praktikum_ws/install/vrpn_client_ros/share/vrpn_client_ros/package.xml
+[0.816s] Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros

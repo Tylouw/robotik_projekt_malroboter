@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/picture_to_points_service/picture_to_points_service.egg-info/PKG-INFO
+writing dependency_links to ../../build/picture_to_points_service/picture_to_points_service.egg-info/dependency_links.txt
+writing entry points to ../../build/picture_to_points_service/picture_to_points_service.egg-info/entry_points.txt
+writing requirements to ../../build/picture_to_points_service/picture_to_points_service.egg-info/requires.txt
+writing top-level names to ../../build/picture_to_points_service/picture_to_points_service.egg-info/top_level.txt
+reading manifest file '../../build/picture_to_points_service/picture_to_points_service.egg-info/SOURCES.txt'
+writing manifest file '../../build/picture_to_points_service/picture_to_points_service.egg-info/SOURCES.txt'
+running build
+running build_py
+copying picture_to_points_service/service_member_function.py -> /home/prakt3/praktikum_ws/build/picture_to_points_service/build/lib/picture_to_points_service
+running install
+running install_lib
+copying /home/prakt3/praktikum_ws/build/picture_to_points_service/build/lib/picture_to_points_service/service_member_function.py -> /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages/picture_to_points_service
+byte-compiling /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages/picture_to_points_service/service_member_function.py to service_member_function.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages/picture_to_points_service-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/picture_to_points_service/picture_to_points_service.egg-info to /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/python3.8/site-packages/picture_to_points_service-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/picture_to_points_service
+Installing service script to /home/prakt3/praktikum_ws/install/picture_to_points_service/lib/picture_to_points_service
+writing list of installed files to '/home/prakt3/praktikum_ws/build/picture_to_points_service/install.log'

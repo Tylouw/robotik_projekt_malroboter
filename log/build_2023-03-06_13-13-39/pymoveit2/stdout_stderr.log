@@ -1,0 +1,47 @@
+Built target ament_cmake_python_copy_pymoveit2
+running egg_info
+writing pymoveit2.egg-info/PKG-INFO
+writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+writing top-level names to pymoveit2.egg-info/top_level.txt
+reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_pymoveit2_egg
+-- Install configuration: ""
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/PKG-INFO
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/dependency_links.txt
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/SOURCES.txt
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/top_level.txt
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_servo.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/panda.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/ur5e.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/__init__.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/__init__.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/gripper_command.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_gripper.py
+Listing '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2'...
+Listing '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots'...
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_collision_object_ur.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_joint_goal_ur.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_pose_goal_ur.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_servo_ur.py
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.sh
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.dsv
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.bash
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.sh
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.zsh
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.dsv
+-- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/package.dsv
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+-- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/package.xml

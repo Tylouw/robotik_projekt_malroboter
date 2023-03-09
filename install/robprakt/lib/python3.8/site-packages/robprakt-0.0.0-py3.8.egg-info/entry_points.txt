@@ -1,0 +1,5 @@
+[console_scripts]
+client = robprakt.vacuum_client:main
+get_matrices = robprakt.get_matrices:main
+vacuum_control = robprakt.vacuum_control:main
+

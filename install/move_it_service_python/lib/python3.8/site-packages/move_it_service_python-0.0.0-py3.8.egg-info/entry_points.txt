@@ -1,0 +1,7 @@
+[console_scripts]
+collision_object = move_it_service_python.add_collision_objects:main
+ralf = move_it_service_python.get_matrices:main
+service = move_it_service_python.move_it_service:main
+spirale = move_it_service_python.ex_pose_goal_ur:main
+tf = move_it_service_python.tf_service:main
+

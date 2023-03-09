@@ -1,0 +1,22 @@
+[0.621s] Invoking command in '/home/prakt3/praktikum_ws/src/robprakt': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/robprakt_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/robprakt_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/robprakt_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/build/robprakt/prefix_override:/home/prakt3/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/prakt3/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/prakt3/praktikum_ws/build/robprakt/build install --record /home/prakt3/praktikum_ws/build/robprakt/install.log --single-version-externally-managed
+[0.773s] running egg_info
+[0.774s] writing ../../build/robprakt/robprakt.egg-info/PKG-INFO
+[0.774s] writing dependency_links to ../../build/robprakt/robprakt.egg-info/dependency_links.txt
+[0.774s] writing entry points to ../../build/robprakt/robprakt.egg-info/entry_points.txt
+[0.774s] writing requirements to ../../build/robprakt/robprakt.egg-info/requires.txt
+[0.774s] writing top-level names to ../../build/robprakt/robprakt.egg-info/top_level.txt
+[0.794s] reading manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[0.794s] writing manifest file '../../build/robprakt/robprakt.egg-info/SOURCES.txt'
+[0.794s] running build
+[0.794s] running build_py
+[0.794s] running install
+[0.795s] running install_lib
+[0.796s] running install_data
+[0.796s] running install_egg_info
+[0.797s] removing '/home/prakt3/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info' (and everything under it)
+[0.798s] Copying ../../build/robprakt/robprakt.egg-info to /home/prakt3/praktikum_ws/install/robprakt/lib/python3.8/site-packages/robprakt-0.0.0-py3.8.egg-info
+[0.798s] running install_scripts
+[0.810s] Installing get_matrices script to /home/prakt3/praktikum_ws/install/robprakt/lib/robprakt
+[0.810s] Installing vacuum_control script to /home/prakt3/praktikum_ws/install/robprakt/lib/robprakt
+[0.810s] writing list of installed files to '/home/prakt3/praktikum_ws/build/robprakt/install.log'
+[0.828s] Invoked command in '/home/prakt3/praktikum_ws/src/robprakt' returned '0': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/robprakt_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/robprakt_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/robprakt_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/build/robprakt/prefix_override:/home/prakt3/praktikum_ws/install/robprakt/lib/python3.8/site-packages:/home/prakt3/praktikum_ws/install/robprakt_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robprakt build --build-base /home/prakt3/praktikum_ws/build/robprakt/build install --record /home/prakt3/praktikum_ws/build/robprakt/install.log --single-version-externally-managed

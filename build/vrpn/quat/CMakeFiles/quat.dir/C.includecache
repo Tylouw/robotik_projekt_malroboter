@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/matrix.c
+math.h
+-
+stdio.h
+-
+quat.h
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/quat.h
+
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/quat.c
+quat.h
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/quat.h
+math.h
+-
+stdio.h
+-
+
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/quat.h
+
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/vector.c
+math.h
+-
+stdio.h
+-
+quat.h
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/quat.h
+
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/xyzquat.c
+quat.h
+/home/prakt3/praktikum_ws/src/vrpn-release/quat/quat.h
+

@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/trajectory/trajectory.egg-info/PKG-INFO
+writing dependency_links to ../../build/trajectory/trajectory.egg-info/dependency_links.txt
+writing entry points to ../../build/trajectory/trajectory.egg-info/entry_points.txt
+writing requirements to ../../build/trajectory/trajectory.egg-info/requires.txt
+writing top-level names to ../../build/trajectory/trajectory.egg-info/top_level.txt
+reading manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+writing manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+running build
+running build_py
+copying trajectory/trajectoryPlanningOld.py -> /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory
+copying trajectory/trajectoryPlanning.py -> /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory
+running install
+running install_lib
+copying /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory/trajectoryPlanningOld.py -> /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory
+copying /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory/trajectoryPlanning.py -> /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory
+byte-compiling /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory/trajectoryPlanningOld.py to trajectoryPlanningOld.cpython-38.pyc
+byte-compiling /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory/trajectoryPlanning.py to trajectoryPlanning.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/trajectory/trajectory.egg-info to /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory-0.0.0-py3.8.egg-info
+running install_scripts
+Installing calibration script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+Installing trajectoryPlanning script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+writing list of installed files to '/home/prakt3/praktikum_ws/build/trajectory/install.log'

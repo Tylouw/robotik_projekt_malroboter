@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Picturetopoints.srv
+// generated code does not contain a copyright notice
+
+#include "interfaces/msg/Pointcoords.idl"
+
+module interfaces {
+  module srv {
+    struct Picturetopoints_Request {
+      string path;
+    };
+    struct Picturetopoints_Response {
+      interfaces::msg::Pointcoords points;
+    };
+  };
+};

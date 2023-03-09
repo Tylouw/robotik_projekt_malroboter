@@ -1,0 +1,41 @@
+[0.618s] Invoking command in '/home/prakt3/praktikum_ws/src/trajectory': PYTHONPATH=/home/prakt3/praktikum_ws/build/trajectory/prefix_override:/home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory build --build-base /home/prakt3/praktikum_ws/build/trajectory/build install --record /home/prakt3/praktikum_ws/build/trajectory/install.log --single-version-externally-managed
+[0.839s] running egg_info
+[0.839s] creating ../../build/trajectory/trajectory.egg-info
+[0.839s] writing ../../build/trajectory/trajectory.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ../../build/trajectory/trajectory.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../build/trajectory/trajectory.egg-info/entry_points.txt
+[0.840s] writing requirements to ../../build/trajectory/trajectory.egg-info/requires.txt
+[0.840s] writing top-level names to ../../build/trajectory/trajectory.egg-info/top_level.txt
+[0.841s] writing manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+[0.876s] reading manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+[0.877s] writing manifest file '../../build/trajectory/trajectory.egg-info/SOURCES.txt'
+[0.877s] running build
+[0.877s] running build_py
+[0.877s] creating /home/prakt3/praktikum_ws/build/trajectory/build
+[0.877s] creating /home/prakt3/praktikum_ws/build/trajectory/build/lib
+[0.877s] creating /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory
+[0.877s] copying trajectory/__init__.py -> /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory
+[0.877s] copying trajectory/calibration.py -> /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory
+[0.877s] copying trajectory/trajectoryPlanning.py -> /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory
+[0.877s] running install
+[0.878s] running install_lib
+[0.879s] creating /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory
+[0.879s] copying /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory/__init__.py -> /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory
+[0.879s] copying /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory/calibration.py -> /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory
+[0.879s] copying /home/prakt3/praktikum_ws/build/trajectory/build/lib/trajectory/trajectoryPlanning.py -> /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory
+[0.879s] byte-compiling /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory/__init__.py to __init__.cpython-38.pyc
+[0.880s] byte-compiling /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory/calibration.py to calibration.cpython-38.pyc
+[0.886s] byte-compiling /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory/trajectoryPlanning.py to trajectoryPlanning.cpython-38.pyc
+[0.893s] running install_data
+[0.894s] creating /home/prakt3/praktikum_ws/install/trajectory/share/ament_index
+[0.894s] creating /home/prakt3/praktikum_ws/install/trajectory/share/ament_index/resource_index
+[0.894s] creating /home/prakt3/praktikum_ws/install/trajectory/share/ament_index/resource_index/packages
+[0.894s] copying resource/trajectory -> /home/prakt3/praktikum_ws/install/trajectory/share/ament_index/resource_index/packages
+[0.894s] copying package.xml -> /home/prakt3/praktikum_ws/install/trajectory/share/trajectory
+[0.894s] running install_egg_info
+[0.897s] Copying ../../build/trajectory/trajectory.egg-info to /home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages/trajectory-0.0.0-py3.8.egg-info
+[0.897s] running install_scripts
+[0.917s] Installing calibration script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+[0.917s] Installing trajectoryPlanning script to /home/prakt3/praktikum_ws/install/trajectory/lib/trajectory
+[0.917s] writing list of installed files to '/home/prakt3/praktikum_ws/build/trajectory/install.log'
+[0.970s] Invoked command in '/home/prakt3/praktikum_ws/src/trajectory' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/trajectory/prefix_override:/home/prakt3/praktikum_ws/install/trajectory/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/trajectory build --build-base /home/prakt3/praktikum_ws/build/trajectory/build install --record /home/prakt3/praktikum_ws/build/trajectory/install.log --single-version-externally-managed

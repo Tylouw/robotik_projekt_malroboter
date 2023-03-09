@@ -1,0 +1,3 @@
+[console_scripts]
+client = move_client.move_client:main
+

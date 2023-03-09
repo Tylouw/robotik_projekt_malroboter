@@ -1,0 +1,42 @@
+[1.128s] Invoking command in '/home/prakt3/praktikum_ws/src/move_it_service_python': PYTHONPATH=/home/prakt3/praktikum_ws/build/move_it_service_python/prefix_override:/home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_it_service_python build --build-base /home/prakt3/praktikum_ws/build/move_it_service_python/build install --record /home/prakt3/praktikum_ws/build/move_it_service_python/install.log --single-version-externally-managed
+[1.391s] running egg_info
+[1.391s] creating ../../build/move_it_service_python/move_it_service_python.egg-info
+[1.391s] writing ../../build/move_it_service_python/move_it_service_python.egg-info/PKG-INFO
+[1.391s] writing dependency_links to ../../build/move_it_service_python/move_it_service_python.egg-info/dependency_links.txt
+[1.391s] writing entry points to ../../build/move_it_service_python/move_it_service_python.egg-info/entry_points.txt
+[1.391s] writing requirements to ../../build/move_it_service_python/move_it_service_python.egg-info/requires.txt
+[1.391s] writing top-level names to ../../build/move_it_service_python/move_it_service_python.egg-info/top_level.txt
+[1.391s] writing manifest file '../../build/move_it_service_python/move_it_service_python.egg-info/SOURCES.txt'
+[1.391s] reading manifest file '../../build/move_it_service_python/move_it_service_python.egg-info/SOURCES.txt'
+[1.391s] writing manifest file '../../build/move_it_service_python/move_it_service_python.egg-info/SOURCES.txt'
+[1.391s] running build
+[1.392s] running build_py
+[1.392s] creating /home/prakt3/praktikum_ws/build/move_it_service_python/build
+[1.392s] creating /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib
+[1.392s] creating /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python
+[1.392s] copying move_it_service_python/ex_pose_goal_ur.py -> /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python
+[1.392s] copying move_it_service_python/__init__.py -> /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python
+[1.392s] copying move_it_service_python/move_it_service.py -> /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python
+[1.392s] running install
+[1.392s] running install_lib
+[1.392s] creating /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python
+[1.392s] copying /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python/ex_pose_goal_ur.py -> /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python
+[1.392s] copying /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python/__init__.py -> /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python
+[1.392s] copying /home/prakt3/praktikum_ws/build/move_it_service_python/build/lib/move_it_service_python/move_it_service.py -> /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python
+[1.392s] byte-compiling /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python/ex_pose_goal_ur.py to ex_pose_goal_ur.cpython-38.pyc
+[1.392s] byte-compiling /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python/__init__.py to __init__.cpython-38.pyc
+[1.392s] byte-compiling /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python/move_it_service.py to move_it_service.cpython-38.pyc
+[1.392s] running install_data
+[1.392s] creating /home/prakt3/praktikum_ws/install/move_it_service_python/share/ament_index
+[1.392s] creating /home/prakt3/praktikum_ws/install/move_it_service_python/share/ament_index/resource_index
+[1.392s] creating /home/prakt3/praktikum_ws/install/move_it_service_python/share/ament_index/resource_index/packages
+[1.392s] copying resource/move_it_service_python -> /home/prakt3/praktikum_ws/install/move_it_service_python/share/ament_index/resource_index/packages
+[1.392s] copying package.xml -> /home/prakt3/praktikum_ws/install/move_it_service_python/share/move_it_service_python
+[1.392s] running install_egg_info
+[1.392s] Copying ../../build/move_it_service_python/move_it_service_python.egg-info to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages/move_it_service_python-0.0.0-py3.8.egg-info
+[1.393s] running install_scripts
+[1.393s] Installing ralf script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.393s] Installing service script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.393s] Installing spirale script to /home/prakt3/praktikum_ws/install/move_it_service_python/lib/move_it_service_python
+[1.393s] writing list of installed files to '/home/prakt3/praktikum_ws/build/move_it_service_python/install.log'
+[1.428s] Invoked command in '/home/prakt3/praktikum_ws/src/move_it_service_python' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/move_it_service_python/prefix_override:/home/prakt3/praktikum_ws/install/move_it_service_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/move_it_service_python build --build-base /home/prakt3/praktikum_ws/build/move_it_service_python/build install --record /home/prakt3/praktikum_ws/build/move_it_service_python/install.log --single-version-externally-managed

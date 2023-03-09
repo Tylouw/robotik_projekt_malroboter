@@ -1,0 +1,11 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces:msg/Pointcoords.msg",
+    "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces:msg/PointTranslation3D.msg",
+    "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces:msg/PointOrientation3D.msg",
+    "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces:srv/Picturetopoints.srv",
+    "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces:srv/Getpose.srv",
+    "/home/prakt3/praktikum_ws/src/whiteboard_drawing_script/interfaces:action/MoveAction.action"
+  ]
+}

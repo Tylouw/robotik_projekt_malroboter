@@ -1,0 +1,6 @@
+[console_scripts]
+client = tracking_service.test_client:main
+gripper = tracking_service.gripper_tracking:main
+penhold = tracking_service.penhold_tracking:main
+whiteboard = tracking_service.whiteboard_tracking:main
+

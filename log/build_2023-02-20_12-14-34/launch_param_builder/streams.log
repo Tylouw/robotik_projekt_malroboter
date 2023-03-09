@@ -1,0 +1,50 @@
+[1.091s] Invoking command in '/home/prakt3/praktikum_ws/src/launch_param_builder': PYTHONPATH=/home/prakt3/praktikum_ws/build/launch_param_builder/prefix_override:/home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/prakt3/praktikum_ws/build/launch_param_builder/build install --record /home/prakt3/praktikum_ws/build/launch_param_builder/install.log --single-version-externally-managed
+[1.308s] running egg_info
+[1.309s] creating ../../build/launch_param_builder/launch_param_builder.egg-info
+[1.309s] writing ../../build/launch_param_builder/launch_param_builder.egg-info/PKG-INFO
+[1.309s] writing dependency_links to ../../build/launch_param_builder/launch_param_builder.egg-info/dependency_links.txt
+[1.309s] writing entry points to ../../build/launch_param_builder/launch_param_builder.egg-info/entry_points.txt
+[1.309s] writing requirements to ../../build/launch_param_builder/launch_param_builder.egg-info/requires.txt
+[1.309s] writing top-level names to ../../build/launch_param_builder/launch_param_builder.egg-info/top_level.txt
+[1.310s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.343s] reading manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.344s] writing manifest file '../../build/launch_param_builder/launch_param_builder.egg-info/SOURCES.txt'
+[1.344s] running build
+[1.344s] running build_py
+[1.344s] creating /home/prakt3/praktikum_ws/build/launch_param_builder/build
+[1.344s] creating /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib
+[1.344s] creating /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.344s] copying launch_param_builder/utils.py -> /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.344s] copying launch_param_builder/__init__.py -> /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.344s] copying launch_param_builder/launch_param_builder.py -> /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder
+[1.344s] running install
+[1.345s] running install_lib
+[1.346s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder
+[1.346s] copying /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder/utils.py -> /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder
+[1.346s] copying /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder/__init__.py -> /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder
+[1.346s] copying /home/prakt3/praktikum_ws/build/launch_param_builder/build/lib/launch_param_builder/launch_param_builder.py -> /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder
+[1.347s] byte-compiling /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder/utils.py to utils.cpython-38.pyc
+[1.348s] byte-compiling /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder/__init__.py to __init__.cpython-38.pyc
+[1.349s] byte-compiling /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder/launch_param_builder.py to launch_param_builder.cpython-38.pyc
+[1.349s] running install_data
+[1.350s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/share/ament_index
+[1.350s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/share/ament_index/resource_index
+[1.350s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.350s] copying resource/launch_param_builder -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/ament_index/resource_index/packages
+[1.350s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/launch
+[1.350s] copying example/launch_param_builder_example.launch.py -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/launch
+[1.350s] copying example/parameter_injection_example.launch.py -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/launch
+[1.350s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.350s] copying example/config/parameter.xacro -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.350s] copying example/config/parameter_file -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.350s] copying example/config/param_file_to_inject.yaml -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.350s] copying example/config/parameters.yaml -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.350s] copying example/config/parameters_injection.yaml -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder/config
+[1.350s] copying package.xml -> /home/prakt3/praktikum_ws/install/launch_param_builder/share/launch_param_builder
+[1.350s] creating /home/prakt3/praktikum_ws/install/launch_param_builder/lib/launch_param_builder
+[1.350s] copying example/example_node.py -> /home/prakt3/praktikum_ws/install/launch_param_builder/lib/launch_param_builder
+[1.351s] running install_egg_info
+[1.352s] Copying ../../build/launch_param_builder/launch_param_builder.egg-info to /home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages/launch_param_builder-0.1.1-py3.8.egg-info
+[1.353s] running install_scripts
+[1.371s] writing list of installed files to '/home/prakt3/praktikum_ws/build/launch_param_builder/install.log'
+[1.413s] Invoked command in '/home/prakt3/praktikum_ws/src/launch_param_builder' returned '0': PYTHONPATH=/home/prakt3/praktikum_ws/build/launch_param_builder/prefix_override:/home/prakt3/praktikum_ws/install/launch_param_builder/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_param_builder build --build-base /home/prakt3/praktikum_ws/build/launch_param_builder/build install --record /home/prakt3/praktikum_ws/build/launch_param_builder/install.log --single-version-externally-managed

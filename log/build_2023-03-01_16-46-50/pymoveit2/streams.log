@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/prakt3/praktikum_ws/build/pymoveit2': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/pymoveit2 -- -j12 -l12
+[0.042s] Built target ament_cmake_python_copy_pymoveit2
+[0.170s] running egg_info
+[0.170s] writing pymoveit2.egg-info/PKG-INFO
+[0.170s] writing dependency_links to pymoveit2.egg-info/dependency_links.txt
+[0.170s] writing top-level names to pymoveit2.egg-info/top_level.txt
+[0.191s] reading manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.191s] writing manifest file 'pymoveit2.egg-info/SOURCES.txt'
+[0.208s] Built target ament_cmake_python_build_pymoveit2_egg
+[0.214s] Invoked command in '/home/prakt3/praktikum_ws/build/pymoveit2' returned '0': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/pymoveit2 -- -j12 -l12
+[0.228s] Invoking command in '/home/prakt3/praktikum_ws/build/pymoveit2': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/pymoveit2
+[0.233s] -- Install configuration: ""
+[0.233s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.sh
+[0.233s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/pythonpath.dsv
+[0.233s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info
+[0.234s] -- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/PKG-INFO
+[0.234s] -- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/dependency_links.txt
+[0.234s] -- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/SOURCES.txt
+[0.234s] -- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages//pymoveit2.egg-info/top_level.txt
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_servo.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/panda.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/ur5e.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots/__init__.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/__init__.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/gripper_command.py
+[0.234s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/moveit2_gripper.py
+[0.252s] Listing '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2'...
+[0.253s] Listing '/home/prakt3/praktikum_ws/install/pymoveit2/lib/python3.8/site-packages/pymoveit2/robots'...
+[0.255s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_collision_object_ur.py
+[0.255s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_joint_goal_ur.py
+[0.255s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_pose_goal_ur.py
+[0.255s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/lib/pymoveit2/ex_servo_ur.py
+[0.255s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/package_run_dependencies/pymoveit2
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/parent_prefix_path/pymoveit2
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.sh
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/ament_prefix_path.dsv
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.sh
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/environment/path.dsv
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.bash
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.sh
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.zsh
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/local_setup.dsv
+[0.256s] -- Installing: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/package.dsv
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/ament_index/resource_index/packages/pymoveit2
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config.cmake
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/cmake/pymoveit2Config-version.cmake
+[0.256s] -- Up-to-date: /home/prakt3/praktikum_ws/install/pymoveit2/share/pymoveit2/package.xml
+[0.259s] Invoked command in '/home/prakt3/praktikum_ws/build/pymoveit2' returned '0': AMENT_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/prakt3/praktikum_ws/install/moveit_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/pymoveit2

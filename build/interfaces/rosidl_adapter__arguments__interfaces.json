@@ -1,0 +1,13 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/prakt3/praktikum_ws/src/interfaces:msg/Pointcoords.msg",
+    "/home/prakt3/praktikum_ws/src/interfaces:msg/Waypoints.msg",
+    "/home/prakt3/praktikum_ws/src/interfaces:msg/PointTranslation3D.msg",
+    "/home/prakt3/praktikum_ws/src/interfaces:srv/Move.srv",
+    "/home/prakt3/praktikum_ws/src/interfaces:msg/PointOrientation3D.msg",
+    "/home/prakt3/praktikum_ws/src/interfaces:srv/Picturetopoints.srv",
+    "/home/prakt3/praktikum_ws/src/interfaces:srv/Getpose.srv",
+    "/home/prakt3/praktikum_ws/src/interfaces:srv/SetUrIo.srv"
+  ]
+}

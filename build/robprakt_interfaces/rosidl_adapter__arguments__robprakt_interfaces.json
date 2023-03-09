@@ -1,0 +1,6 @@
+{
+  "package_name": "robprakt_interfaces",
+  "non_idl_tuples": [
+    "/home/prakt3/praktikum_ws/src/robprakt_interfaces:srv/SetUrIo.srv"
+  ]
+}

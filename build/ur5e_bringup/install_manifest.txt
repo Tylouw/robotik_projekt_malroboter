@@ -1,0 +1,16 @@
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/launch/prakt_launch.py
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ament_index/resource_index/package_run_dependencies/ur5e_bringup
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ament_index/resource_index/parent_prefix_path/ur5e_bringup
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/environment/ament_prefix_path.sh
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/environment/ament_prefix_path.dsv
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/environment/path.sh
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/environment/path.dsv
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/local_setup.bash
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/local_setup.sh
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/local_setup.zsh
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/local_setup.dsv
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/package.dsv
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ament_index/resource_index/packages/ur5e_bringup
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/cmake/ur5e_bringupConfig.cmake
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/cmake/ur5e_bringupConfig-version.cmake
+/home/prakt3/praktikum_ws/install/ur5e_bringup/share/ur5e_bringup/package.xml

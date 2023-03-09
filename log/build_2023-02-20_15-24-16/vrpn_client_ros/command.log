@@ -1,0 +1,4 @@
+Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/prakt3/praktikum_ws/build/vrpn_client_ros -- -j12 -l12
+Invoking command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros
+Invoked command in '/home/prakt3/praktikum_ws/build/vrpn_client_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/prakt3/praktikum_ws/build/vrpn_client_ros

@@ -1,0 +1,4 @@
+source;share/robprakt_interfaces/local_setup.bash
+source;share/robprakt_interfaces/local_setup.dsv
+source;share/robprakt_interfaces/local_setup.sh
+source;share/robprakt_interfaces/local_setup.zsh

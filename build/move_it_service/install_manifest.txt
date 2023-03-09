@@ -1,0 +1,16 @@
+/home/prakt3/praktikum_ws/install/move_it_service/lib/move_it_service/move_server
+/home/prakt3/praktikum_ws/install/move_it_service/share/ament_index/resource_index/package_run_dependencies/move_it_service
+/home/prakt3/praktikum_ws/install/move_it_service/share/ament_index/resource_index/parent_prefix_path/move_it_service
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/environment/ament_prefix_path.sh
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/environment/ament_prefix_path.dsv
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/environment/path.sh
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/environment/path.dsv
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/local_setup.bash
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/local_setup.sh
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/local_setup.zsh
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/local_setup.dsv
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/package.dsv
+/home/prakt3/praktikum_ws/install/move_it_service/share/ament_index/resource_index/packages/move_it_service
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/cmake/move_it_serviceConfig.cmake
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/cmake/move_it_serviceConfig-version.cmake
+/home/prakt3/praktikum_ws/install/move_it_service/share/move_it_service/package.xml

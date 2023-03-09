@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/move_client/move_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/move_client/move_client.egg-info/dependency_links.txt
+writing entry points to ../../build/move_client/move_client.egg-info/entry_points.txt
+writing requirements to ../../build/move_client/move_client.egg-info/requires.txt
+writing top-level names to ../../build/move_client/move_client.egg-info/top_level.txt
+reading manifest file '../../build/move_client/move_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/move_client/move_client.egg-info/SOURCES.txt'
+running build
+running build_py
+copying move_client/move_client.py -> /home/prakt3/praktikum_ws/build/move_client/build/lib/move_client
+running install
+running install_lib
+copying /home/prakt3/praktikum_ws/build/move_client/build/lib/move_client/move_client.py -> /home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages/move_client
+byte-compiling /home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages/move_client/move_client.py to move_client.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages/move_client-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/move_client/move_client.egg-info to /home/prakt3/praktikum_ws/install/move_client/lib/python3.8/site-packages/move_client-0.0.0-py3.8.egg-info
+running install_scripts
+Installing client script to /home/prakt3/praktikum_ws/install/move_client/lib/move_client
+writing list of installed files to '/home/prakt3/praktikum_ws/build/move_client/install.log'
