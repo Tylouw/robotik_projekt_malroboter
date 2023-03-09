@@ -1,0 +1,24 @@
+ros2 launch ur_bringup ur_control.launch.py ur_type:=ur5e robot_ip:=141.83.19.251 launch_rviz:=false initial_joint_controller:=joint_trajectory_controller
+source /opt/ros/galactic/setup.bash
+ros2 launch ur_bringup ur_control.launch.py ur_type:=ur5e robot_ip:=yyy.yyy.yyy.yyy use_fake_hardware:=true launch_rviz:=false initial_joint_controller:=joint_trajectory_controller
+ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur5e launch_rviz:=true
+
+ros2 run picture_to_points_service service
+ros2 run picture_to_points_service client '/home/prakt3/Pictures/chopper.jpg'
+
+colcon build --packages-select vrpn
+
+ros2 launch vrpn_client_ros sample.launch.py
+
+ros2 run tf2_ros tf2_echo base wrist_3_link
+
+launch Befehle:
+Robot Connection: ros2 launch launch/setupRobotTrackingConnection.py
+Calibration: ros2 launch launch/calibrate_robot.py
+Draw Picture: ros2 launch launch/draw_picture.py picture_path:="/home/prakt3/Pictures/chopper.jpg"
+
+
+
+Fragen an Ralf:
+1. robotconnection und gripper kann nicht gleichzeitig laufen
+2. Wir brauchen Trackingballs
