@@ -13,12 +13,16 @@ ros2 launch vrpn_client_ros sample.launch.py
 ros2 run tf2_ros tf2_echo base wrist_3_link
 
 launch Befehle:
-Robot Connection: ros2 launch launch/setupRobotTrackingConnection.py
-Calibration: ros2 launch launch/calibrate_robot.py
-Draw Picture: ros2 launch launch/draw_picture.py picture_path:="/home/prakt3/Pictures/chopper.jpg"
+Robot Connection: 
+```
+ros2 launch launch/setupRobotTrackingConnection.py
+```
+Calibration: 
+```
+ros2 launch launch/calibrate_robot.py
+```
+Draw Picture: 
+```
+ros2 launch launch/draw_picture.py picture_path:="/home/prakt3/Pictures/chopper.jpg"
+```
 
-
-
-Fragen an Ralf:
-1. robotconnection und gripper kann nicht gleichzeitig laufen
-2. Wir brauchen Trackingballs
