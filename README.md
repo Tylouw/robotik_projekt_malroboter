@@ -23,7 +23,7 @@ source install/setup.bash
 ```
 
 
-There are three ROS2 launch files to start the different partis of the project.
+There are three ROS2 launch files to start the different parts of the project.
 
 This command is used to establish a connection between the UR5e and the remote controller.
 
