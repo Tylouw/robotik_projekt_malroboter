@@ -10,6 +10,19 @@ least-square approach to solve the linear equation.
 The drawing process is enabled through an edge detection algorithm used to draw Bezier curves from the extracted waypoints. After that, the robot is tasked with 
 following the user-defined number of steps, frequently switching out the colors located in the penholder.
 ## Tutorial
+Before you are able to use these ROS2 commands you have to use the following command to build you're workspace.
+
+```
+colcon build
+```
+
+After that you have to use the following command to source you're workspace.
+
+```
+source install/setup.bash
+```
+
+
 There are three ROS2 launch files to start the different partis of the project.
 
 This command is used to establish a connection between the UR5e and the remote controller.
