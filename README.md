@@ -11,11 +11,17 @@ The drawing process is enabled through an edge detection algorithm used to draw 
 following the user-defined number of steps, frequently switching out the colors located in the penholder.
 ## Tutorial
 There are three ROS2 launch files to start the different partis of the project.
+
 This command is used to establish a connection between the UR5e and the remote controller.
+
   1. Robot Connection: ros2 launch launch/setupRobotTrackingConnection.py
+  
 This command is used to start the calibration and calculate the needed calibration matrices.  
+
   2. Calibration: ros2 launch launch/calibrate_robot.py
+ 
 This command is used to draw the picture. What kind of picture you want to draw can be specified by the picture path.
+
   3. Draw Picture: ros2 launch launch/draw_picture.py picture_path:="/home/prakt3/Pictures/chopper.jpg"
 
 
